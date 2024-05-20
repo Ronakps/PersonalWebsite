@@ -8,43 +8,107 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .social-links img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            border-radius: 50%;
+        }
+        .photo {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
         }
         .intro {
             font-size: 18px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
-        .quote {
-            text-align: center;
-            margin-right: 20px;
-            font-style: italic;
-            font-size: 24px;
+        .about-subsection {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
         }
-        .container {
-            display: flex;
-            align-items: center;
+        .about-subsection h3 {
+            font-size: 20px;
+            margin-top: 20px;
         }
-        .image {
-            margin-left: 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
-        .intro-details {
-            font-size: 14px;
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <h1>An introduction about my life!</h1>
-    <div class="container">
-        <div class="quote">
-            “Live as if you were to die tomorrow. Learn as if you were to live forever.”<br>
-            – Mahatma Gandhi
-        </div>
-        <div class="image">
-            <img src="Photos/Headshot.jpeg" width="500" height="auto" alt="Headshot">
+    <!-- Section 1 -->
+    <div class="section">
+        <div class="title">Ronak Shah</div>
+        <div class="subtitle">Product Manager/Student/Consultant/Data Scientist</div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ronakps/"><img src="Photos/LinkedIn.png" alt="LinkedIn"></a>
         </div>
     </div>
-    <h2 class="intro">Intro:</h2>
-    <p class="intro-details">
-        I currently attend the University of Texas at Austin where I major in Management Information Systems and minor in Finance.
-    </p>
+
+    <!-- Section 2 -->
+    <div class="section">
+        <img src="Photos/Headshot.jpeg" alt="Headshot" class="photo">
+        <div class="intro">
+            I currently attend the University of Texas at Austin where I major in Management Information Systems and minor in Finance.
+        </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section">
+        <div class="title">About Me</div>
+        <div class="about-subsection">
+            <h3>Relevant Coursework</h3>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Course 1</td>
+                    <td>Description of Course 1</td>
+                </tr>
+                <tr>
+                    <td>Course 2</td>
+                    <td>Description of Course 2</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </table>
+        </div>
+        <div class="about-subsection">
+            <h3>Activities</h3>
+            <p>Description of activities.</p>
+        </div>
+        <div class="about-subsection">
+            <h3>Random Facts</h3>
+            <p>Interesting random facts about you.</p>
+        </div>
+    </div>
 </body>
 </html>
