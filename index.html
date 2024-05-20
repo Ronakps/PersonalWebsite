@@ -1,33 +1,50 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <h1>
-        An introduction about my life!
-    </h1>
-</head>
-<body>
     <style>
-        .left-indent {
-            margin-left: 20px; /* Adjust the value as needed */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .intro {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .quote {
+            text-align: center;
+            margin-right: 20px;
+            font-style: italic;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .image {
+            margin-left: 20px;
+        }
+        .intro-details {
+            font-size: 14px;
         }
     </style>
-    
-    <div class="left-indent">
-        <img src="Photos/Headshot.jpeg" width="500" height="auto">
-    </div>
-    <img src="Photos/Headshot.jpeg" width="500" height="auto">
-    <h1>“Live as if you were to die tomorrow. Learn as if you were to live forever.”
-        – Mahatma Gandhi</h1>
-</body>
-
+</head>
 <body>
-    <h1>
-        Intro: TEST
-    </h1>
-    <h1>
-        I currently attend the University of Texas at Austin where I major in Mangaement Information Systems and minor in Finance.
-    </h1>
+    <h1>An introduction about my life!</h1>
+    <div class="container">
+        <div class="quote">
+            “Live as if you were to die tomorrow. Learn as if you were to live forever.”<br>
+            – Mahatma Gandhi
+        </div>
+        <div class="image">
+            <img src="Photos/Headshot.jpeg" width="500" height="auto" alt="Headshot">
+        </div>
+    </div>
+    <h2 class="intro">Intro:</h2>
+    <p class="intro-details">
+        I currently attend the University of Texas at Austin where I major in Management Information Systems and minor in Finance.
+    </p>
 </body>
 </html>
