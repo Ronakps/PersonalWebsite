@@ -4,7 +4,7 @@ remote_theme: Forty
 title: Ronak Shah
 subtitle: Personal Website
 email: Ronakpshah1115@gmail.com
-description: My personal website to learn more about my work and life. Come explore with me!
+description: “Live as if you were to die tomorrow. Learn as if you were to live forever.” – Mahatma Gandhi
 baseurl: "/PersonalWebsite" # the subpath of your site, e.g. /blog
 url: "https://ronakps.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 author:

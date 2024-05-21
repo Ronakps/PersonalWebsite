@@ -12,11 +12,11 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>Academics</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
+<h2 id="content">Education</h2>
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 <div class="row">
 	<div class="6u 12u$(small)">
@@ -41,6 +41,85 @@ nav-menu: true
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 </div>
+
+<!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
+<!-- Table -->
+<h3>Table</h3>
+
+<h4>Default</h4>
+<div class="table-wrapper">
+	<table>
+		<thead>
+			<tr>
+				<th>Course Name</th>
+				<th>Description</th>
+				<th>Skills Utilized</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Web Application Development</td>
+				<td>Concepts and practices of information systems. Advanced programming techniques used to generate menu-driven applications.</td>
+				<td>C#, HTML, CSS, Github, Visual Studio, Lucid Chart</td>
+			</tr>
+			<tr>
+				<td>Predictive Analytics / Data Mining</td>
+				<td>Introduction to data mining problems and tools to enhance managerial decision making at all levels of the organization. Discuss scenarios, including the use of data mining to support customer relationship management (CRM) decisions, decisions in the entertainment industry, financial trading, and even professional sports teams.</td>
+				<td>WEKA, Microsoft Excel</td>
+			</tr>
+			<tr>
+				<td>Data Science for Business Applications</td>
+				<td> Examine data science for business applications at the intermediate level. Explore building and validating predictive models; advanced regression modeling, including an in-depth treatment of regression; models for binary outcomes; and causal inference.</td>
+				<td>R</td>
+			</tr>
+			<tr>
+				<td>Database Management</td>
+				<td>Beginning and intermediate topics in data modeling for relational database management systems.</td>
+				<td>SQL, SQL Developer</td>
+			</tr>
+			<tr>
+				<td>Introduction to Programming / Problem Solving</td>
+				<td>Programming skills for creating easy-to-maintain systems for business applications. Object-oriented and structured methodologies with Python.</td>
+				<td>Python, Spyder</td>
+			</tr>
+			<tr>
+				<td>Strategic Information Technology Management</td>
+				<td>Designed to develop an understanding and appreciation for the role of information technology in the context of a firm's strategy. Explores the impact of information technology on the economy and business performance, the emergence of electronic business applications and organizational and market transformation, and the nature of technology-driven business models and strategies.</td>
+				<td>Microsoft PowerPoint, Roadmapping, Executive Summary</td>
+			</tr>
+			<tr>
+				<td>Introduction to Data Science</td>
+				<td>An introduction to the principles and practice of data science for business applications. Explore tidying, summarizing, and visualizing data; statistical computing in R; linear regression; introduction to predictive modeling and out-of-sample model validation. Uncertainty quantification using resampling methods. Basic probability models, including the normal and binomial distributions; and statistical hypothesis testing.</td>
+				<td>R</td>
+			</tr>
+			<tr>
+				<td>Introduction to Decision Science</td>
+				<td>Examine modeling of business problems using methods from decision analysis, simulation and optimization.</td>
+				<td>Macro-Enabled Microsoft Excel</td>
+			</tr>
+			<tr>
+				<td>Operations Management</td>
+				<td>The operations or production function and the skills required for analyzing and solving related problems.   </td>
+				<td>Microsoft PowerPoint</td>
+			</tr>
+			<tr>
+				<td>Golf</td>
+				<td>Learned and attempted to master the game of golf.</td>
+				<td>Drivers, Woods, Hybrids, Irons, Wedges, Putter</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2"></td>
+				<td>100.00</td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+
+
+
+
 
 <hr class="major" />
 
