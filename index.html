@@ -446,11 +446,11 @@
         <title>My Travel Map</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
         <style>
-          #map {
-            height: auto; /* Set the height and width of the map */
-            width: auto;
-            margin-top: auto;
-          }
+            #map {
+                height: 400px; /* Set the height of the map */
+                width: 100%; /* Set the width of the map */
+                margin-top: 20px;
+            }
         </style>
     </head>
     <body>
@@ -458,13 +458,24 @@
     
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
         <script>
-          // Initialize the map
-          var map = L.map('map').setView([20, 0], 2); // Center the map at latitude 20 and longitude 0, with a zoom level of 2
+            // Initialize the map
+            var map = L.map('map').setView([20, 0], 2); // Center the map at latitude 20 and longitude 0, with a zoom level of 2
     
-          // Add OpenStreetMap tiles
-          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          }).addTo(map);
+            // Add OpenStreetMap tiles in English
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18, // Set maximum zoom level
+                minZoom: 2 // Set minimum zoom level
+            }).addTo(map);
+    
+            // Set maximum boundaries for the map
+            var southWest = L.latLng(-90, -180); // Bottom-left corner of the map
+            var northEast = L.latLng(90, 180); // Top-right corner of the map
+            var bounds = L.latLngBounds(southWest, northEast); // Set the map boundaries
+            map.setMaxBounds(bounds); // Apply the boundaries to the map
+            map.on('drag', function() {
+                map.panInsideBounds(bounds, { animate: false }); // Keep the map within the boundaries while dragging
+            });
     
           // Add markers for each country visited
           var countries = [
@@ -516,15 +527,14 @@
             {lat: 40.6401, lon: 22.9444, name: "Thessaloniki"}
             // Add more countries here
           ];
-    
           countries.forEach(function(country) {
             L.marker([country.lat, country.lon]).addTo(map)
-              .bindPopup(country.name)
-              .openPopup();
-          });
-        </script>
-    </body>
-    </html>
+            .bindPopup(country.name)
+            .openPopup();
+        });
+    </script>
+</body>
+</html>
     
     
 
@@ -638,3 +648,19 @@
 </body>
 </html>
 
+<div class="section certification">
+    <h2 class="title">Certifications</h2>
+    <div class="certification">
+        <h3 class="certification-title">Certification 1</h3>
+        <p class="certification-description">Certification Description</p>
+        <p class="certification-notes"><a href="#">Certification 1 Notes</a></p>
+        <img src="certification1.jpg" alt="Certification 1" class="photo">
+    </div>
+    <div class="certification-divider"></div>
+    <div class="certification">
+        <h3 class="certification-title">Certification 2</h3>
+        <p class="certification-description">Certification Description</p>
+        <p class="certification-notes"><a href="#">Certification 2 Notes</a></p>
+        <img src="certification2.jpg" alt="Certification 2" class="photo">
+    </div>
+</div>
