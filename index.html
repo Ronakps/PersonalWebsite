@@ -364,31 +364,49 @@
         </div>
     </div>
 
-     <!-- Include Leaflet JS -->
-     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-     <script>
-         // Initialize the map
-         var map = L.map('map').setView([20, 0], 2); // Center of the map and zoom level
- 
-         // Add OpenStreetMap tiles
-         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-         }).addTo(map);
- 
-         // Add markers for the countries you've visited
-         var countries = [
-             {name: 'USA', lat: 37.0902, lon: -95.7129},
-             {name: 'France', lat: 46.603354, lon: 1.888334},
-             {name: 'Japan', lat: 36.2048, lon: 138.2529},
-             {name: 'South Africa', lat: -30.5595, lon: 22.9375},
-             // Add more countries here...
-         ];
- 
-         countries.forEach(function(country) {
-             L.marker([country.lat, country.lon]).addTo(map)
-                 .bindPopup(country.name);
-         });
-     </script>
+    
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    </head>
+    <body>
+        <div id="map"></div>
+    
+        <style>
+          #map {
+            height: 400px; /* Set the height and width of the map */
+            width: 100%;
+            margin-top: 20px;
+          }
+        </style>
+    
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script>
+          // Initialize the map
+          var map = L.map('map').setView([20, 0], 2); // Center the map at latitude 20 and longitude 0, with a zoom level of 2
+    
+          // Add OpenStreetMap tiles
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+    
+          // Add markers for each country visited
+          var countries = [
+            {lat: 37.7749, lon: -122.4194, name: "United States"},
+            {lat: 48.8566, lon: 2.3522, name: "France"},
+            {lat: 51.5074, lon: -0.1278, name: "United Kingdom"},
+            {lat: 35.6895, lon: 139.6917, name: "Japan"},
+            {lat: -1.2921, lon: 36.8219, name: "Kenya"}
+            // Add more countries here
+          ];
+    
+          countries.forEach(function(country) {
+            L.marker([country.lat, country.lon]).addTo(map)
+              .bindPopup(country.name)
+              .openPopup();
+          });
+        </script>
+    </body>
+    
 
 </body>
 </html>
