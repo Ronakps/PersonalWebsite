@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 100,  // Increased number of particles
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#ffffff"  // Changed color to white
       },
       "shape": {
         "type": "polygon",
@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
-        "color": "#ffffff",
+        "distance": 200,  // Increased distance for more line connections
+        "color": "#ffffff",  // Changed color to white
         "opacity": 0.4,
         "width": 1
       },
