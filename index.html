@@ -1,82 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Ronak Shah</title>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 20px;
-            }
-            .section {
-                margin-bottom: 40px;
-                /* Remove text-align: center to prevent centering all section text */
-            }
-            .title {
-                font-size: 24px;
-                font-weight: bold;
-                text-align: center; /* Centering only the title */
-            }
-            .subtitle {
-                font-size: 16px;
-                margin-bottom: 20px;
-                text-align: center; /* Centering only the subtitle */
-            }
-            .social-links {
-                text-align: center; /* Centering social links */
-            }
-            .social-links img {
-                width: 40px;
-                height: 40px;
-                margin: 0 10px;
-                border-radius: 50%;
-            }
-            .photo {
-                border-radius: 50%;
-                width: 200px;
-                height: 200px;
-                object-fit: cover;
-                display: block;
-                margin: 0 auto 20px;
-            }
-            .intro {
-                font-size: 18px;
-                margin-bottom: 20px;
-            }
-            .about-subsection {
-                text-align: left;
-                margin: 20px auto;
-                max-width: 900px;
-            }
-            .about-subsection h3 {
-                font-size: 20px;
-                margin-top: 20px;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-bottom: 20px;
-            }
-            table, th, td {
-                border: 1px solid black;
-            }
-            th, td {
-                padding: 10px;
-                text-align: left;
-            }
-            /* Specific styles for About Me section */
-            #about-me {
-                text-align: left;
-                margin: 20px 0;
-            }
-            #about-me .about-subsection {
-                text-align: left;
-                margin: 0;
-            }
-        </style>        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ronak Shah</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            /* Remove text-align: center to prevent centering all section text */
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center; /* Centering only the title */
+        }
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: center; /* Centering only the subtitle */
+        }
+        .social-links {
+            text-align: center; /* Centering social links */
+        }
+        .social-links img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            border-radius: 50%;
+        }
+        .photo {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto 0; /* Move the photo down */
+            padding-top: 20px; /* Adjust padding to move the image content down within the frame */
+        }
+        .intro {
+            font-size: 18px;
+            margin-top: 20px; /* Ensure there's space between the photo and the intro text */
+            margin-bottom: 20px;
+        }
+        .about-subsection {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        .about-subsection h3 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        /* Specific styles for About Me section */
+        #about-me {
+            text-align: left;
+            margin: 20px 0;
+        }
+        #about-me .about-subsection {
+            text-align: left;
+            margin: 0;
+        }
+
+        /* Updated styles for circle frames and photos */
+        .skills-list img {
+            border-radius: 50%;
+            width: 80px; /* Decreased size */
+            height: 80px; /* Decreased size */
+            object-fit: cover;
+        }
+
+        /* Adjusted layout for computer skills and coding skills */
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills-list li {
+            margin: 10px;
+            text-align: center;
+            width: calc(50% - 20px); /* 50% width with margin */
+            flex-basis: calc(50% - 20px); /* 50% flex basis with margin */
+        }
+
+        /* Updated styles for skill categories */
+        .skill-category {
+            margin: 20px;
+            width: 50%; /* Half width */
+            flex-basis: 50%; /* Half flex basis */
+        }
+    </style>        
+</head>
 
 <body>
     <!-- Section 1 -->
@@ -100,17 +133,60 @@
     <!-- Section 3 -->
     <div class="section">
         <div class="title">About Me</div>
-
         <html lang="en">
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Technical Skills</title>
+                <title>About Ronak Shah</title>
                 <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 20px;
+                    }
+                    .section {
+                        margin-bottom: 40px;
+                        /* Remove text-align: center to prevent centering all section text */
+                    }
+                    .title {
+                        font-size: 24px;
+                        font-weight: bold;
+                        text-align: center; /* Centering only the title */
+                        text-decoration: underline; /* Underline the title */
+                    }
+                    .subtitle {
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                        text-align: center; /* Centering only the subtitle */
+                    }
+                    .social-links {
+                        text-align: center; /* Centering social links */
+                    }
+                    .social-links img {
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 10px;
+                        border-radius: 50%;
+                    }
+                    .photo {
+                        border-radius: 50%;
+                        width: 200px;
+                        height: 200px;
+                        object-fit: cover;
+                        display: block;
+                        margin: 0 auto 20px;
+                    }
+                    .intro {
+                        font-size: 18px;
+                        margin-bottom: 20px;
+                    }
                     .about-subsection {
-                        text-align: center;
+                        text-align: left;
                         margin: 20px auto;
                         max-width: 900px;
+                    }
+                    .about-subsection h3 {
+                        font-size: 20px;
+                        margin-top: 20px;
                     }
                     .skills-section {
                         display: flex;
@@ -130,18 +206,21 @@
                     .skills-list li {
                         margin: 10px;
                         text-align: center;
+                        width: 18%; /* Adjusting width to fit 6 items per row */
                     }
                     .skills-list img {
                         border-radius: 50%;
-                        width: 100px;
-                        height: 100px;
+                        width: 120px; /* Increased size */
+                        height: 120px; /* Increased size */
                         object-fit: cover;
                     }
+                    .skill-category h3 {
+                        text-align: center; /* Center the category headers */
+                    }
                 </style>
-            </head>
+            </head>            
             <body>
                 <div class="about-subsection">
-                    <h3>Technical Skills</h3>
                     <div class="skills-section">
                         <div class="skill-category">
                             <h3>Computer Skills</h3>
@@ -160,7 +239,7 @@
                             </ul>
                         </div>
                         <div class="skill-category">
-                            <h3>Coding</h3>
+                            <h3>Coding Skills</h3>
                             <ul class="skills-list">
                                 <li><img src="Photos/github.png" alt="Github"><br>Github</li>
                                 <li><img src="Photos/python.png" alt="Python"><br>Python</li>
@@ -339,7 +418,7 @@
                 <li>Triathlons and marathons. I have run the Austin Half-Marathon in February 2024 and currently training for a half Iron-Man triathlon (70.3 miles)</li>
                 <li>Traveling to new places around the world. I love to road trip and explore in the area that I am in. This includes participating in the culture, the nightlife, and trying out the food</li>
                 <li>Any adrenaline activities. Whether finding new underground cliff diving spots in Austin or going skydiving in the rural areas of New Zealand</li>
-                <li>Practicing yoga and meditation. I help my roommates find inner peace during stressful times in the semester.</li>
+                <li>Practicing yoga and meditation. I help my friends and family find inner peace during stressful times; for example during final exam season.</li>
                 <li>Professional and Collegiate sports such as basketball, football, golf, soccer, pickleball, baseball.</li>
             </ul>
         </div>
@@ -626,6 +705,37 @@
             width: 250px; /* Increased width for larger images */
             height: auto;
         }
+        .certification-section {
+            max-width: 900px;
+            margin: 20px auto;
+            text-align: left;
+        }
+        .certification-section h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .certification {
+            margin-bottom: 40px;
+        }
+        .certification-title {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .certification-description {
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .certification img {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            width: 200px; /* Adjust width */
+            height: 200px; /* Adjust height to make it square */
+            object-fit: cover; /* Ensure the entire image is shown */
+            display: block;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -654,34 +764,31 @@
         </div>
     </div>
 
-    
-   <!-- New certifications section -->
-<div class="section certification">
-    <h2 class="title">Certifications</h2>
-    
-    <!-- Certification 1 -->
-    <div class="certification">
-        <h3 class="certification-title">Data Driven Product Management</h3>
-        <p class="certification-description">Certification Description:</p>
-        <p>Learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations.</p>
-        <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Data Driven Product Management Notes.pdf" target="_blank">here!</a>.</p>
-        <img src="Photos/Certification For Recrutiment/Data Driven Product Management.pdf" alt="Data Driven Product Management" class="photo">
+    <!-- New certifications section -->
+    <div class="certification-section">
+        <h2 class="title">Certifications</h2>
+
+        <!-- Certification 1 -->
+        <div class="certification">
+            <h3 class="certification-title">Data Driven Product Management</h3>
+            <p class="certification-description">Certification Description:</p>
+            <p>Learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations.</p>
+            <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Data Driven Product Management Notes.pdf" target="_blank">here!</a>.</p>
+            <img src="Photos/Certification For Recrutiment/Data Driven Product Management.pdf" alt="Data Driven Product Management" class="photo">
+        </div>
+
+        <!-- Divider -->
+        <div class="certification-divider"></div>
+
+        <!-- Certification 2 -->
+        <div class="certification">
+            <h3 class="certification-title">Product-Strategy Micro Certifcation</h3>
+            <p class="certification-description">Certification Description:</p>
+            <p>In this course, you'll delve into the crucial realm of Product Strategy, where you'll uncover the essential steps for crafting a successful product. You'll learn how to define clear goals and the methods needed to achieve them, encompassing key elements such as Product Vision, Insights, Challenges, Approaches, and Accountability. By the end of the course, you'll understand how Product Strategy provides direction and focus, aligning with broader business strategies while effectively meeting customer needs and setting you apart from competitors. Through six major steps—Market Analysis, Customer Analytics, Product Vision and Mission, Objectives and Key Results (OKRs), Product Roadmap, and Prioritization—you'll gain the knowledge and skills necessary to develop an impactful Product Strategy.</p>
+            <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Product-Strategy Micro Certifcation.pdf" target="_blank">here!</a>.</p>
+            <img src="Photos/Certification For Recrutiment/certificate-of-completion-for-product-strategy-microcertification.pdf" alt="Product-Strategy Micro Certifcation" class="photo">
+        </div>
     </div>
     
-    <!-- Divider -->
-    <div class="certification-divider"></div>
-    
-    <!-- Certification 2 -->
-    <div class="certification">
-        <h3 class="certification-title">Product-Strategy Micro Certifcation</h3>
-        <p class="certification-description">Certification Description:</p>
-        <p>In this course, you'll delve into the crucial realm of Product Strategy, where you'll uncover the essential steps for crafting a successful product. You'll learn how to define clear goals and the methods needed to achieve them, encompassing key elements such as Product Vision, Insights, Challenges, Approaches, and Accountability. By the end of the course, you'll understand how Product Strategy provides direction and focus, aligning with broader business strategies while effectively meeting customer needs and setting you apart from competitors. Through six major steps—Market Analysis, Customer Analytics, Product Vision and Mission, Objectives and Key Results (OKRs), Product Roadmap, and Prioritization—you'll gain the knowledge and skills necessary to develop an impactful Product Strategy.</p>
-        <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Product-Strategy Micro Certifcation.pdf" target="_blank">here!</a>.</p>
-        <img src="Photos/Certification For Recrutiment/certificate-of-completion-for-product-strategy-microcertification.pdf" alt="Product-Strategy Micro Certifcation" class="photo">
-    </div>
-</div>
-
-
-
 </body>
 </html>
