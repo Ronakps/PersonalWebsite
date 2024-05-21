@@ -362,6 +362,33 @@
             <p>You can view my resume <a href="Photos/RonakShahResume.pdf" target="_blank">here</a>.</p>
         </div>
     </div>
+
+     <!-- Include Leaflet JS -->
+     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+     <script>
+         // Initialize the map
+         var map = L.map('map').setView([20, 0], 2); // Center of the map and zoom level
+ 
+         // Add OpenStreetMap tiles
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+         }).addTo(map);
+ 
+         // Add markers for the countries you've visited
+         var countries = [
+             {name: 'USA', lat: 37.0902, lon: -95.7129},
+             {name: 'France', lat: 46.603354, lon: 1.888334},
+             {name: 'Japan', lat: 36.2048, lon: 138.2529},
+             {name: 'South Africa', lat: -30.5595, lon: 22.9375},
+             // Add more countries here...
+         ];
+ 
+         countries.forEach(function(country) {
+             L.marker([country.lat, country.lon]).addTo(map)
+                 .bindPopup(country.name);
+         });
+     </script>
+     
 </body>
 </html>
 
