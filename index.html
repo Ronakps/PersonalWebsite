@@ -1,113 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Ronak Shah</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .section {
-            margin-bottom: 40px;
-            text-align: center; /* Centering content within the section */
-        }
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center; /* Centering only the title */
-        }
-        .subtitle {
-            font-size: 16px;
-            margin-bottom: 20px;
-            text-align: center; /* Centering only the subtitle */
-        }
-        .social-links {
-            text-align: center; /* Centering social links */
-        }
-        .social-links img {
-            width: 40px;
-            height: 40px;
-            margin: 0 10px;
-            border-radius: 50%;
-        }
-        .photo {
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            display: block;
-            margin: 20px auto; /* Centering the photo */
-        }
-        .intro {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-        .about-subsection {
-            text-align: left;
-            margin: 20px auto;
-            max-width: 900px;
-        }
-        .about-subsection h3 {
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        /* Specific styles for About Me section */
-        #about-me {
-            text-align: left;
-            margin: 20px 0;
-        }
-        #about-me .about-subsection {
-            text-align: left;
-            margin: 0;
-        }
-
-        /* Updated styles for circle frames and photos */
-        .skills-list img {
-            border-radius: 50%;
-            width: 80px; /* Decreased size */
-            height: 80px; /* Decreased size */
-            object-fit: cover;
-        }
-
-        /* Adjusted layout for computer skills and coding skills */
-        .skills-list {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .skills-list li {
-            margin: 10px;
-            text-align: center;
-            width: calc(50% - 20px); /* 50% width with margin */
-            flex-basis: calc(50% - 20px); /* 50% flex basis with margin */
-        }
-
-        /* Updated styles for skill categories */
-        .skill-category {
-            margin: 20px;
-            width: 50%; /* Half width */
-            flex-basis: 50%; /* Half flex basis */
-        }
-    </style>        
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Ronak Shah</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .section {
+                margin-bottom: 40px;
+                /* Remove text-align: center to prevent centering all section text */
+            }
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+                text-align: center; /* Centering only the title */
+            }
+            .subtitle {
+                font-size: 16px;
+                margin-bottom: 20px;
+                text-align: center; /* Centering only the subtitle */
+            }
+            .social-links {
+                text-align: center; /* Centering social links */
+            }
+            .social-links img {
+                width: 40px;
+                height: 40px;
+                margin: 0 10px;
+                border-radius: 50%;
+            }
+            .photo {
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                display: block;
+                margin: 0 auto 20px;
+            }
+            .intro {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .about-subsection {
+                text-align: left;
+                margin: 20px auto;
+                max-width: 900px;
+            }
+            .about-subsection h3 {
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+            /* Specific styles for About Me section */
+            #about-me {
+                text-align: left;
+                margin: 20px 0;
+            }
+            #about-me .about-subsection {
+                text-align: left;
+                margin: 0;
+            }
+        </style>        
+    </head>
 
 <body>
     <!-- Section 1 -->
@@ -132,37 +101,83 @@
     <div class="section">
         <div class="title">About Me</div>
 
-        <div class="about-subsection">
-            <h3>Technical Skills</h3>
-            <div class="skills-section">
-                <div class="skill-category">
-                    <h3>Computer Skills</h3>
-                    <ul class="skills-list">
-                        <li><img src="Photos/MSExcel.png" alt="MS Excel"><br>MS Excel</li>
-                        <li><img src="Photos/MSPowerPoint.png" alt="MS PowerPoint"><br>MS PowerPoint</li>
-                        <li><img src="Photos/MSPowerAutomate.jpeg" alt="MS Automate"><br>MS Automate</li>
-                        <li><img src="Photos/GSuite.jpeg" alt="Google Suite"><br>Google Suite</li>
-                        <li><img src="Photos/Tableau.png" alt="Tableau"><br>Tableau</li>
-                        <li><img src="Photos/PowerBI.png" alt="PowerBI"><br>PowerBI</li>
-                    </ul>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Technical Skills</title>
+                <style>
+                    .about-subsection {
+                        text-align: center;
+                        margin: 20px auto;
+                        max-width: 900px;
+                    }
+                    .skills-section {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .skill-category {
+                        margin: 20px;
+                    }
+                    .skills-list {
+                        list-style: none;
+                        padding: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .skills-list li {
+                        margin: 10px;
+                        text-align: center;
+                    }
+                    .skills-list img {
+                        border-radius: 50%;
+                        width: 100px;
+                        height: 100px;
+                        object-fit: cover;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="about-subsection">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-section">
+                        <div class="skill-category">
+                            <h3>Computer Skills</h3>
+                            <ul class="skills-list">
+                                <li><img src="Photos/MSExcel.png" alt="MS Excel"><br>MS Excel</li>
+                                <li><img src="Photos/MSPowerPoint.png" alt="MS PowerPoint"><br>MS PowerPoint</li>
+                                <li><img src="Photos/MSPowerAutomate.jpeg" alt="MS Automate"><br>MS Automate</li>
+                                <li><img src="Photos/GSuite.jpeg" alt="Google Suite"><br>Google Suite</li>
+                                <li><img src="Photos/Tableau.png" alt="Tableau"><br>Tableau</li>
+                                <li><img src="Photos/PowerBI.png" alt="PowerBI"><br>PowerBI</li>
+                                <li><img src="Photos/Talentlms.png" alt="Talentlms"><br>Talentlms</li>
+                                <li><img src="Photos/WEKA.jpeg" alt="WEKA"><br>WEKA</li>
+                                <li><img src="Photos/WIX.png" alt="Wix"><br>Wix</li>
+                                <li><img src="Photos/VS.jpeg" alt="Visual Studio"><br>Visual Studio</li>
+                                <li><img src="Photos/JIRA.png" alt="Jira"><br>Jira</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Coding</h3>
+                            <ul class="skills-list">
+                                <li><img src="Photos/github.png" alt="Github"><br>Github</li>
+                                <li><img src="Photos/python.png" alt="Python"><br>Python</li>
+                                <li><img src="Photos/sql.jpeg" alt="SQL"><br>SQL</li>
+                                <li><img src="Photos/csharp.jpeg" alt="C#"><br>C#</li>
+                                <li><img src="Photos/r.jpeg" alt="R"><br>R</li>
+                                <li><img src="Photos/html.png" alt="HTML"><br>HTML</li>
+                                <li><img src="Photos/dotnet.png" alt=".NET"><br>.NET</li>
+                                <li><img src="Photos/aspdotnet.jpeg" alt=".ASP.NET"><br>.ASP.NET</li>
+                                <li><img src="Photos/css.png" alt="CSS"><br>CSS</li>
+                                <li><img src="Photos/mvc.png" alt="MVC"><br>MVC</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Coding</h3>
-                    <ul class="skills-list">
-                        <li><img src="Photos/github.png" alt="Github"><br>Github</li>
-                        <li><img src="Photos/python.png" alt="Python"><br>Python</li>
-                        <li><img src="Photos/sql.jpeg" alt="SQL"><br>SQL</li>
-                        <li><img src="Photos/csharp.jpeg" alt="C#"><br>C#</li>
-                        <li><img src="Photos/r.jpeg" alt="R"><br>R</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
-
+            </body>
+            </html>
         
         <html lang="en">
         <head>
@@ -350,8 +365,8 @@
             justify-content: center;
         }
         .team-item {
-            width: 200px; /* Adjust the width of the circle frame */
-            height: 200px; /* Adjust the height of the circle frame */
+            width: 150px; /* Adjust the width of the circle frame */
+            height: 150px; /* Adjust the height of the circle frame */
             border-radius: 50%; /* Create a circular frame */
             overflow: hidden; /* Hide any overflow */
             margin: 10px; /* Adjust spacing between team items */
@@ -371,7 +386,6 @@
             margin-top: 5px;
         }
     </style>
-
 </head>
 <body>
     <div class="about-subsection">
@@ -656,6 +670,18 @@
     
     <!-- Divider -->
     <div class="certification-divider"></div>
+    
+    <!-- Certification 2 -->
+    <div class="certification">
+        <h3 class="certification-title">Product-Strategy Micro Certifcation</h3>
+        <p class="certification-description">Certification Description:</p>
+        <p>In this course, you'll delve into the crucial realm of Product Strategy, where you'll uncover the essential steps for crafting a successful product. You'll learn how to define clear goals and the methods needed to achieve them, encompassing key elements such as Product Vision, Insights, Challenges, Approaches, and Accountability. By the end of the course, you'll understand how Product Strategy provides direction and focus, aligning with broader business strategies while effectively meeting customer needs and setting you apart from competitors. Through six major steps—Market Analysis, Customer Analytics, Product Vision and Mission, Objectives and Key Results (OKRs), Product Roadmap, and Prioritization—you'll gain the knowledge and skills necessary to develop an impactful Product Strategy.</p>
+        <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Product-Strategy Micro Certifcation.pdf" target="_blank">here!</a>.</p>
+        <img src="Photos/Certification For Recrutiment/certificate-of-completion-for-product-strategy-microcertification.pdf" alt="Product-Strategy Micro Certifcation" class="photo">
+    </div>
+</div>
+
+
 
 </body>
 </html>
