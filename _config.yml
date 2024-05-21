@@ -1,5 +1,4 @@
 # Site settings
-theme: jekyll-theme-particle
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "/PersonalWebsite" # the subpath of your site, e.g. /blog
