@@ -342,7 +342,7 @@
                 <li>Practicing yoga and meditation. I help my roommates find inner peace during stressful times in the semester.</li>
                 <li>Professional and Collegiate sports such as basketball, football, golf, soccer, pickleball, baseball.</li>
             </ul>
-        </div>               
+        </div>
         
         <html lang="en">
 <head>
@@ -365,15 +365,23 @@
             justify-content: center;
         }
         .team-item {
-            margin: 10px;
-            text-align: center;
+            width: 150px; /* Adjust the width of the circle frame */
+            height: 150px; /* Adjust the height of the circle frame */
+            border-radius: 50%; /* Create a circular frame */
+            overflow: hidden; /* Hide any overflow */
+            margin: 10px; /* Adjust spacing between team items */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* Add position relative for the image */
         }
+
         .team-item img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
+            max-width: 100%; /* Ensure the image fills the circle */
+            max-height: 100%; /* Ensure the image fills the circle */
+            object-fit: contain; /* Adjust how the image fits within the circle */
         }
+
         .team-name {
             margin-top: 5px;
         }
