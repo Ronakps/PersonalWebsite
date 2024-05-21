@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "size": {
-        "value": 3,
+        "value": 20,
         "random": true,
         "anim": {
           "enable": false,
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 5,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "bubble": {
           "distance": 400,
-          "size": 40,
+          "size": 60,
           "duration": 2,
           "opacity": 8,
           "speed": 3
