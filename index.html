@@ -11,8 +11,10 @@
                 margin: 20px;
             }
             .section {
+                .section {
                 margin-bottom: 40px;
-                /* Remove text-align: center to prevent centering all section text */
+                text-align: center; /* Centering content within the section */
+                }
             }
             .title {
                 font-size: 24px;
@@ -107,19 +109,15 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Technical Skills</title>
                 <style>
-                    .about-subsection {
-                        text-align: center;
-                        margin: 20px auto;
-                        max-width: 900px;
+                    /* Updated styles for circle frames and photos */
+                    .skills-list img {
+                        border-radius: 50%;
+                        width: 150px; /* Decreased size */
+                        height: 150px; /* Decreased size */
+                        object-fit: cover;
                     }
-                    .skills-section {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                    }
-                    .skill-category {
-                        margin: 20px;
-                    }
+                
+                    /* Adjusted layout for computer skills and coding skills */
                     .skills-list {
                         list-style: none;
                         padding: 0;
@@ -127,15 +125,19 @@
                         flex-wrap: wrap;
                         justify-content: center;
                     }
+                
                     .skills-list li {
                         margin: 10px;
                         text-align: center;
+                        width: calc(50% - 20px); /* 50% width with margin */
+                        flex-basis: calc(50% - 20px); /* 50% flex basis with margin */
                     }
-                    .skills-list img {
-                        border-radius: 50%;
-                        width: 200px;
-                        height: 200px;
-                        object-fit: cover;
+                
+                    /* Updated styles for skill categories */
+                    .skill-category {
+                        margin: 20px;
+                        width: 50%; /* Half width */
+                        flex-basis: 50%; /* Half flex basis */
                     }
                 </style>
             </head>
