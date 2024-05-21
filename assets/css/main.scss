@@ -1,74 +1,80 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+@import 'font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
-@import
+/*
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-    "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
-    // "skins/chocolate",
-    // "skins/dark",
-    // "skins/default",
-    // "skins/forest",
-    // "skins/ocean",
-    // "skins/orange",
+	@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)',
+		xxsmall: '(max-width: 360px)'
+	));
 
-    "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
-    // "skins/highlight/tomorrow",
-    // "skins/highlight/tomorrow-night",
-    // "skins/highlight/tomorrow-night-eighties",
-    // "skins/highlight/tomorrow-night-blue",
-    // "skins/highlight/tomorrow-night-bright",
+	@include skel-layout((
+		reset: 'full',
+		boxModel: 'border',
+		grid: ( gutters: 2em ),
+		breakpoints: (
+			large: (
+				grid: ( gutters: 1.5em )
+			),
+			small: (
+				grid: ( gutters: 1.25em )
+			)
+		)
+	));
 
+	@mixin inner {
+		> .inner {
+			@include padding(4em, 0);
+			margin: 0 auto;
+			max-width: _size(inner);
+			width: calc(100% - 6em);
 
-    "common/variables",
-    "common/function",
-    "common/classes",
-    "common/reset",
-    "common/print",
-    "common/components/button",
-    "common/components/image",
-    "common/components/card",
-    "common/components/gallery",
-    "common/components/hero",
-    "common/components/menu",
-    "common/components/modal",
-    "common/components/toc",
-    "common/components/item",
-    "common/components/swiper",
+			@include breakpoint(small) {
+				@include padding(3em, 0);
+				width: calc(100% - 3em);
+			}
+		}
+	}
 
-    "animate/fade-in",
-    "animate/fade-in-down",
-    "animate/fade-in-up",
+// Base.
 
-    "components/main",
-    "components/header",
-    "components/footer",
-    "components/article-list",
-    "components/article-info",
-    "components/article-header",
-    "components/article-content",
-    "components/article-footer",
-    "components/author-links",
-    "components/author-profile",
-    "components/tags",
-    "components/search",
-    "components/lightbox",
-    "components/extensions",
+	@import 'base/page';
+	@import 'base/typography';
 
+// Component.
 
-    "additional/alert",
-    "additional/tag",
-    "additional/photo-frame",
+	@import 'components/section';
+	@import 'components/form';
+	@import 'components/box';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/table';
+	@import 'components/button';
+	@import 'components/tiles';
+	@import 'components/contact-method';
+	@import 'components/spotlights';
 
-    "layout/base",
-    "layout/page",
+// Layout.
 
-    "layout/article",
-    "layout/articles",
-    "layout/archive",
-    "layout/home",
-    "layout/landing",
-    "layout/404",
-
-    "custom"
-;
+	@import 'layout/header';
+	@import 'layout/banner';
+	@import 'layout/main';
+	@import 'layout/contact';
+	@import 'layout/footer';
+	@import 'layout/wrapper';
+	@import 'layout/menu';

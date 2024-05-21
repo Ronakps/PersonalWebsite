@@ -1,43 +1,55 @@
----
-layout: articles
-titles:
-  # @start locale config
-  en      : &EN       Home
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  主页
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  主頁
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       홈
-  ko-KR   : *KO
-  fr      : &FR       Accueil
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  tr      : &TR       Ana Sayfa
-  # @end locale config
-show_title: false
-articles:
-  data_source: paginator.posts
-  article_type: BlogPosting
-  show_cover: false
-  show_excerpt: true
-  show_readmore: true
-  show_info: true
----
-<div class="layout--home">
-  {%- include paginator.html -%}
-</div>
-<script>
-  {%- include scripts/home.js -%}
-</script>
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-{{ content }}
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Massa libero</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

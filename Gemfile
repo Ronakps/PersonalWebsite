@@ -1,6 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# gem "github-pages", group: :jekyll_plugins
-gemspec
+gem 'jekyll', '~> 4.2'
 
-gem "jekyll-text-theme"
+group :jekyll_plugins do
+  gem 'jekyll-timeago', '~> 0.13.1'
+end
