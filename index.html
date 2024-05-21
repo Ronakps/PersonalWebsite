@@ -646,100 +646,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Section</title>
+    <title>Education and Certification Section</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        .education-section {
-            margin-top: 20px;
-        }
-        .education-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .education-text {
-            flex: 1;
-        }
-        .education-image {
-            margin-left: 20px;
-            border: 2px solid #000;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        .education-image img {
-            width: 150px;
-            height: auto;
-        }
-        h3 {
-            margin: 0;
-            font-size: 24px;
-        }
-        p {
-            margin: 5px 0;
-        }
-    </style>
-</head>
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Section</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .education-section {
+        .section {
             max-width: 900px;
             margin: 20px auto;
             text-align: left;
         }
-        .education-section h2 {
+        .section h2 {
             text-align: center;
             font-size: 24px;
             margin-bottom: 20px;
         }
-        .education-item {
+        .item {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
-        .education-text {
+        .text {
             flex: 1;
             padding-right: 10px; /* Reduced padding to bring text closer to the image */
         }
-        .education-image img {
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            width: 250px; /* Increased width for larger images */
-            height: auto;
-        }
-        .certification-section {
-            max-width: 900px;
-            margin: 20px auto;
-            text-align: left;
-        }
-        .certification-section h2 {
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .certification {
-            margin-bottom: 40px;
-        }
-        .certification-title {
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        .certification-description {
-            font-size: 16px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        .certification img {
+        .image img {
             border: 2px solid #ccc;
             border-radius: 8px;
             width: 200px; /* Adjust width */
@@ -751,54 +683,60 @@
     </style>
 </head>
 <body>
-    <div class="education-section">
+    <!-- Education Section -->
+    <div class="section">
         <h2>Education</h2>
-        <div class="education-item">
-            <div class="education-text">
+        <div class="item">
+            <div class="text">
                 <h3>University of Texas at Austin</h3>
                 <p><strong>Field of Study:</strong> Management Information Systems & Finance</p>
                 <p><strong>Location:</strong> Austin, Texas</p>
             </div>
-            <div class="education-image">
+            <div class="image">
                 <img src="Photos/UT Campus.jpeg" alt="University of Texas at Austin">
             </div>
         </div>
 
-        <div class="education-item">
-            <div class="education-text">
+        <div class="item">
+            <div class="text">
                 <h3>Universitat de Barcelona</h3>
                 <p><strong>Field of Study:</strong> Business, Finance, & Liberal Arts</p>
                 <p><strong>Location:</strong> Barcelona, Spain</p>
             </div>
-            <div class="education-image">
+            <div class="image">
                 <img src="Photos/universitat de barcelona.jpeg" alt="Universitat de Barcelona">
             </div>
         </div>
     </div>
 
-    <!-- New certifications section -->
-    <div class="certification-section">
-        <h2 class="title">Certifications</h2>
+    <!-- Certification Section -->
+    <div class="section">
+        <h2>Certifications</h2>
 
         <!-- Certification 1 -->
-        <div class="certification">
-            <h3 class="certification-title">Data Driven Product Management</h3>
-            <p class="certification-description">Certification Description:</p>
-            <p>Learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations.</p>
-            <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Data Driven Product Management Notes.pdf" target="_blank">here!</a>.</p>
-            <img src="Photos/Certification For Recrutiment/Data Driven Product Management.pdf" alt="Data Driven Product Management" class="photo">
+        <div class="item">
+            <div class="text">
+                <h3>Data Driven Product Management</h3>
+                <p><strong>Certification Description:</strong></p>
+                <p>Learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations.</p>
+                <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Data Driven Product Management Notes.pdf" target="_blank">here!</a>.</p>
+            </div>
+            <div class="image">
+                <img src="Photos/Certification For Recrutiment/Data Driven Product Management.pdf" alt="Data Driven Product Management">
+            </div>
         </div>
 
-        <!-- Divider -->
-        <div class="certification-divider"></div>
-
         <!-- Certification 2 -->
-        <div class="certification">
-            <h3 class="certification-title">Product-Strategy Micro Certifcation</h3>
-            <p class="certification-description">Certification Description:</p>
-            <p>In this course, you'll delve into the crucial realm of Product Strategy, where you'll uncover the essential steps for crafting a successful product. You'll learn how to define clear goals and the methods needed to achieve them, encompassing key elements such as Product Vision, Insights, Challenges, Approaches, and Accountability. By the end of the course, you'll understand how Product Strategy provides direction and focus, aligning with broader business strategies while effectively meeting customer needs and setting you apart from competitors. Through six major steps—Market Analysis, Customer Analytics, Product Vision and Mission, Objectives and Key Results (OKRs), Product Roadmap, and Prioritization—you'll gain the knowledge and skills necessary to develop an impactful Product Strategy.</p>
-            <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Product-Strategy Micro Certifcation.pdf" target="_blank">here!</a>.</p>
-            <img src="Photos/Certification For Recrutiment/certificate-of-completion-for-product-strategy-microcertification.pdf" alt="Product-Strategy Micro Certifcation" class="photo">
+        <div class="item">
+            <div class="text">
+                <h3>Product-Strategy Micro Certification</h3>
+                <p><strong>Certification Description:</strong></p>
+                <p>In this course, you'll delve into the crucial realm of Product Strategy, where you'll uncover the essential steps for crafting a successful product. You'll learn how to define clear goals and the methods needed to achieve them, encompassing key elements such as Product Vision, Insights, Challenges, Approaches, and Accountability. By the end of the course, you'll understand how Product Strategy provides direction and focus, aligning with broader business strategies while effectively meeting customer needs and setting you apart from competitors. Through six major steps—Market Analysis, Customer Analytics, Product Vision and Mission, Objectives and Key Results (OKRs), Product Roadmap, and Prioritization—you'll gain the knowledge and skills necessary to develop an impactful Product Strategy.</p>
+                <p>View my notes <a href="Photos/Certification For Recrutiment/Notes/Product-Strategy Micro Certification.pdf" target="_blank">here!</a>.</p>
+            </div>
+            <div class="image">
+                <img src="Photos/Certification For Recrutiment/certificate-of-completion-for-product-strategy-microcertification.pdf" alt="Product-Strategy Micro Certification">
+            </div>
         </div>
     </div>
 
