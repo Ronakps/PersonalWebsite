@@ -225,6 +225,7 @@
                         <div class="skill-category">
                             <h3>Computer Skills</h3>
                             <ul class="skills-list">
+                                <!-- Computer Skills -->
                                 <li><img src="Photos/MSExcel.png" alt="MS Excel"><br>MS Excel</li>
                                 <li><img src="Photos/MSPowerPoint.png" alt="MS PowerPoint"><br>MS PowerPoint</li>
                                 <li><img src="Photos/MSPowerAutomate.jpeg" alt="MS Automate"><br>MS Automate</li>
@@ -241,6 +242,7 @@
                         <div class="skill-category">
                             <h3>Coding Skills</h3>
                             <ul class="skills-list">
+                                <!-- Coding Skills -->
                                 <li><img src="Photos/github.png" alt="Github"><br>Github</li>
                                 <li><img src="Photos/python.png" alt="Python"><br>Python</li>
                                 <li><img src="Photos/sql.jpeg" alt="SQL"><br>SQL</li>
@@ -510,59 +512,69 @@
     </div>
 </body>
 
-</html>
 
-        <div class="about-subsection">
-            <h3>Random Facts</h3>
-            <ul>
-                <li>Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa) </li>
-                <li>Ran a half marathon in 2 hours & 3 minutes</li>
-                <li>Read Outliers by Malcolm Gladwell 3 times</li>
-                <li>Watched Interstellar by Christopher Nolan 8 times</li>
-                <li>Watched all 12 movies directed by Christopher Nolan </li>
-            </ul>
-        </div>
-    </div>
-
-
-    <!DOCTYPE html>
-    <html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Travel Map</title>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
         <style>
-            #map {
-                height: 400px; /* Set the height of the map */
-                width: 100%; /* Set the width of the map */
-                margin-top: 20px;
+            /* CSS to remove space between bullet point and first word */
+            ul {
+                list-style-position: inside;
             }
         </style>
     </head>
     <body>
-        <div id="map"></div>
-    
-        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-        <script>
-            // Initialize the map
-            var map = L.map('map').setView([20, 0], 2); // Center the map at latitude 20 and longitude 0, with a zoom level of 2
-    
-            // Add OpenStreetMap tiles in English
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                maxZoom: 18, // Set maximum zoom level
-                minZoom: 2 // Set minimum zoom level
-            }).addTo(map);
-    
-            // Set maximum boundaries for the map
-            var southWest = L.latLng(-90, -180); // Bottom-left corner of the map
-            var northEast = L.latLng(90, 180); // Top-right corner of the map
-            var bounds = L.latLngBounds(southWest, northEast); // Set the map boundaries
-            map.setMaxBounds(bounds); // Apply the boundaries to the map
-            map.on('drag', function() {
-                map.panInsideBounds(bounds, { animate: false }); // Keep the map within the boundaries while dragging
-            });
+        <div class="about-subsection">
+            <h3>Random Facts</h3>
+            <ul>
+                <li>Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</li>
+                <li>Ran a half marathon in 2 hours & 3 minutes</li>
+                <li>Read Outliers by Malcolm Gladwell 3 times</li>
+                <li>Watched Interstellar by Christopher Nolan 8 times</li>
+                <li>Watched all 12 movies directed by Christopher Nolan</li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Travel Map</title>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+            <style>
+                #map {
+                    height: 400px; /* Set the height of the map */
+                    width: 100%; /* Set the width of the map */
+                    margin-top: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="map"></div>
+        
+            <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+            <script>
+                // Initialize the map
+                var map = L.map('map').setView([20, 0], 2); // Center the map at latitude 20 and longitude 0, with a zoom level of 2
+        
+                // Add OpenStreetMap tiles in English
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                    maxZoom: 18, // Set maximum zoom level
+                    minZoom: 2 // Set minimum zoom level
+                }).addTo(map);
+        
+                // Set maximum boundaries for the map
+                var southWest = L.latLng(-90, -180); // Bottom-left corner of the map
+                var northEast = L.latLng(90, 180); // Top-right corner of the map
+                var bounds = L.latLngBounds(southWest, northEast); // Set the map boundaries
+                map.setMaxBounds(bounds); // Apply the boundaries to the map
+                map.on('drag', function() {
+                    map.panInsideBounds(bounds, { animate: false }); // Keep the map within the boundaries while dragging
+                });
     
           // Add markers for each country visited
           var countries = [
@@ -611,7 +623,13 @@
             {lat: 31.5, lon: 35.3333, name: "Dead Sea, Jordan"},
             {lat: 34.772, lon: 32.4293, name: "Paphos, Cyprus"},
             {lat: 34.8824, lon: 33.4914, name: "Blue Lagoon, Cyprus"},
-            {lat: 40.6401, lon: 22.9444, name: "Thessaloniki"}
+            {lat: 40.6401, lon: 22.9444, name: "Thessaloniki"},
+            {lat: 30.2672, lon: -97.7431, name: "Austin, Texas"},
+            {lat: 40.7128, lon: -74.0060, name: "New York City, New York"},
+            {lat: 39.7392, lon: -104.9903, name: "Denver, Colorado"},
+            {lat: 37.7749, lon: -122.4194, name: "San Francisco, California"},
+            {lat: 25.7617, lon: -80.1918, name: "Miami, Florida"},
+            {lat: 35.7884, lon: -83.5319, name: "Dollywood, Tennessee"}
             // Add more countries here
           ];
           countries.forEach(function(country) {
@@ -622,12 +640,6 @@
     </script>
 </body>
 </html>
-    
-    
-
-</body>
-</html>
-
 
 
 <html lang="en">
@@ -789,6 +801,6 @@
             <img src="Photos/Certification For Recrutiment/certificate-of-completion-for-product-strategy-microcertification.pdf" alt="Product-Strategy Micro Certifcation" class="photo">
         </div>
     </div>
-    
+
 </body>
 </html>
