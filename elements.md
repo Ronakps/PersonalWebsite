@@ -46,7 +46,7 @@ nav-menu: true
 <h2 id="content">University</h2>
 
 <!--PHOTOS FOR UNIVERSITY --->
-<div class="box alt">
+<!-- <div class="box alt">
     <div class="row">
         <div class="col-md-6 d-flex justify-content-start align-items-center">
             <span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span>
@@ -55,8 +55,7 @@ nav-menu: true
             <span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span>
         </div>
     </div>
-</div>
-
+</div> -->
 
 <!-- <div class="alt">
 	<div class="row 100% uniform">
@@ -68,7 +67,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>The University of Texas at Austin</h3>
-		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 400px; height: auto;"/></span>
+		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1400px; height: auto;"/></span>
 		<dl>
 		<h3>Field of Study:</h3>
 		<p>Management Information Systems & Finance</p>
@@ -79,7 +78,7 @@ nav-menu: true
 	<div class="6u 12u$(small)">
 		<h3>Universitat de Barcelona</h3>
 		<dl>
-		<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" style="width: 600px; height: 400px;"/></span>
+		<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 		<h3>Field of Study:</h3>
 		<p>Business, Finance, & Liberal Arts</p>
 		<h3>Location:</h3>
@@ -188,8 +187,27 @@ nav-menu: true
 
 <hr class="major" />
 <!-----------------------------------------------  SKILLS -------------------------------------------------------------------->
-<!-- Content -->
 <h2 id="content">Professional Skills</h2>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+	</div>
+</div>
+
+
+
+
+<!-- Content -->
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 <div class="row">
 	<div class="6u 12u$(small)">
