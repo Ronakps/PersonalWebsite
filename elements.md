@@ -48,10 +48,15 @@ nav-menu: true
 <!--PHOTOS FOR UNIVERSITY --->
 <!-- <div class="box alt">
     <div class="row">
-        <div class="col-md-6"><span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span></div>
-        <div class="col-md-6"><span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span></div>
+        <div class="col-md-6 d-flex justify-content-start align-items-center">
+            <span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end align-items-center">
+            <span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span>
+        </div>
     </div>
 </div> -->
+
 
 <div class="alt">
 	<div class="row 1000% uniform">
