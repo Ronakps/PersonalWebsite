@@ -78,6 +78,79 @@ nav-menu: true
 </div>
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Information</title>
+    <style>
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .university {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 45%;
+            margin: 20px 0;
+        }
+        .university img {
+            width: 100%;
+            height: auto;
+        }
+        @media (max-width: 800px) {
+            .university {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="university">
+            <img src="assets/images/UTCampus.jpg" alt="The University of Texas at Austin" style="max-width: 1500px;">
+            <h3>The University of Texas at Austin</h3>
+            <dl>
+                <dt>Field of Study:</dt>
+                <dd>Management Information Systems & Finance</dd>
+                <dt>Location:</dt>
+                <dd>Austin, Texas</dd>
+            </dl>
+        </div>
+        <div class="university">
+            <img src="assets/images/UB.jpg" alt="Universitat de Barcelona" style="max-width: 1500px;">
+            <h3>Universitat de Barcelona</h3>
+            <dl>
+                <dt>Field of Study:</dt>
+                <dd>Business, Finance, & Liberal Arts</dd>
+                <dt>Location:</dt>
+                <dd>Barcelona, Spain</dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <hr class="major" />
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
@@ -212,18 +285,30 @@ nav-menu: true
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
-        <a href="#" class="button small special">Default</a>
+        <a href="#" class="button small special">Certification</a>
         <!-- Use this button to press to access the notes -->
-        <a href="#" class="button small">Default</a>
+        <a href="#" class="button small">Notes</a>
     </div>
 	<dt>Item2</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>Description</p>
 	</dd>
+	<div>
+        <!-- Use this button to press to access the photo of the certification -->
+        <a href="#" class="button small special">Certification</a>
+        <!-- Use this button to press to access the notes -->
+        <a href="#" class="button small">Notes</a>
+    </div>
 	<dt>Item3</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>Description</p>
 	</dd>
+	<div>
+        <!-- Use this button to press to access the photo of the certification -->
+        <a href="#" class="button small special">Certification</a>
+        <!-- Use this button to press to access the notes -->
+        <a href="#" class="button small">Notes</a>
+    </div>
 </dl>
 
 
