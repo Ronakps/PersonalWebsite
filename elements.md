@@ -68,7 +68,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>The University of Texas at Austin</h3>
-		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" /></span>
+		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 400px; height: auto;"/></span>
 		<dl>
 		<h3>Field of Study:</h3>
 		<p>Management Information Systems & Finance</p>
@@ -77,9 +77,9 @@ nav-menu: true
 		</dl>
 	</div>
 	<div class="6u 12u$(small)">
-	<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" /></span>
 		<h3>Universitat de Barcelona</h3>
 		<dl>
+		<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" style="width: 600px; height: 400px;"/></span>
 		<h3>Field of Study:</h3>
 		<p>Business, Finance, & Liberal Arts</p>
 		<h3>Location:</h3>
