@@ -200,6 +200,16 @@ nav-menu: true
 		<p>My proficiency spans various coding languages, including Python, SQL, JavaScript, and more, showcased through active contributions on GitHub. This skill set makes me a valuable asset in product management, where effective communication with developers is crucial. Additionally, my expertise in data science, evident in my mastery of Python and R, enables me to derive actionable insights from complex datasets, ideal for data analysis roles. Moreover, familiarity with .NET technologies like C# and .ASP.NET, combined with MVC architecture knowledge, positions me well for software development roles, where building robust applications is essential.</p>
 	</div>
 </div>
+
+
+
+
+
+
+
+
+
+
 <!-- Content -->
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 <div class="row">
