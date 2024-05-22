@@ -71,6 +71,7 @@ nav-menu: true
 		<dl>
 		<h3>Field of Study:</h3>
 		<p>Management Information Systems & Finance</p>
+		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" /></span>
 		<h3>Location:</h3>
 		<p>Austin, Texas</p>
 		</dl>
@@ -80,6 +81,7 @@ nav-menu: true
 		<dl>
 		<h3>Field of Study:</h3>
 		<p>Business, Finance, & Liberal Arts</p>
+		<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" /></span>
 		<h3>Location:</h3>
 		<p>Barcelona, Spain</p>
 		</dl>
