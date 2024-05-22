@@ -44,8 +44,30 @@ nav-menu: true
 
 <!-----------------------------------------------Education/Schools ---------------------------------------------->
 <h4> University </h4>
-<p><span class="image left"><img src="assets/images/UTCampus.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-<p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+<p><span class="image left"><img src="assets/images/UTCampus.jpg" alt="" /></span>
+<h4>The University of Texas at Austin</h4>
+<dl>
+	<dt>Field of Study</dt>
+	<dd>
+		<p>Management Information Systems & Finance</p>
+	</dd>
+	<dt>Location</dt>
+	<dd>
+		<p>Austin, Texas</p>
+	</dd>
+</dl></p>
+<p><span class="image right"><img src="assets/images/unidebarca.jpg" alt="" /></span>
+<h4>Universitat de Barcelona</h4>
+<dl>
+	<dt>Field of Study</dt>
+	<dd>
+		<p>Business, Finance, & Liberal Arts</p>
+	</dd>
+	<dt>Location</dt>
+	<dd>
+		<p>Barcelona, Spain</p>
+	</dd>
+</dl></p>
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
