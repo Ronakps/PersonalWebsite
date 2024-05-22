@@ -47,11 +47,9 @@ nav-menu: true
 
 <!--PHOTOS FOR UNIVERSITY --->
 <div class="row">
-<span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 <div style="display: flex; justify-content: flex-end;">
-    <span class="image right">
-        <img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/>
-    </span>
+    <span class="image right"> <img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/> </span>
+	<span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 </div>
 	<div class="6u 12u$(small)">
 		<h3>The University of Texas at Austin</h3>
@@ -73,6 +71,7 @@ nav-menu: true
 	</div>
 </div>
 
+<p>-------------------------------------------------------------------------------------------------------------------------</p>
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
@@ -149,56 +148,23 @@ nav-menu: true
 <h2 id="content">Professional Skills</h2>
 <div class="box alt">
     <div class="row 25% uniform">
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100%; height: auto;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
         <!-- Break -->
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100%; height: auto;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
         <!-- Break -->
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100%; height: auto;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
         <!-- Break -->
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100%; height: auto;" /></span></div>
-        <div class="4u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100%; height: auto;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+        <div class="4u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
     </div>
 </div>
-
-
-
-<!-- <h2 id="content">Professional Skills</h2> -->
-<!-- <div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" /></span></div> -->
-
-		<!-- Break -->
-<!-- 
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" /></span></div> -->
-
-		<!-- Break -->
-<!-- 
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" /></span></div> -->
-
-		<!-- Break -->
-<!-- 
-		<!-- <div class="4u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" /></span></div> -->
-
-	<!-- </div> -->
-
-<!-- </div>  -->
-
-
 
 
 <!-- Content -->
