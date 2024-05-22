@@ -46,7 +46,7 @@ nav-menu: true
 <h2 id="content">University</h2>
 
 <!--PHOTOS FOR UNIVERSITY --->
-<!-- <div class="box alt">
+<div class="box alt">
     <div class="row">
         <div class="col-md-6 d-flex justify-content-start align-items-center">
             <span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span>
@@ -55,15 +55,15 @@ nav-menu: true
             <span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span>
         </div>
     </div>
-</div> -->
+</div>
 
 
-<div class="alt">
-	<div class="row 1000% uniform">
+<!-- <div class="alt">
+	<div class="row 100% uniform">
 		<div class="4u"><span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span></div>
 		<div class="4u"><span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span></div>
 	</div>
-</div>
+</div> -->
 
 <div class="row">
 	<div class="6u 12u$(small)">
