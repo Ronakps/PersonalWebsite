@@ -42,11 +42,16 @@ nav-menu: true
 	</div>
 </div>
 
+<!-----------------------------------------------Education/Schools ---------------------------------------------->
+<h4> University </h4>
+<p><span class="image left"><img src="{% link assets/images/UTCampus.jpeg%}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+<p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
-<h3>Table</h3>
+<h3>Relevant Coursework</h3>
 
-<h4>Default</h4>
+<h4>UT Austin Courses</h4>
 <div class="table-wrapper">
 	<table>
 		<thead>
@@ -108,17 +113,8 @@ nav-menu: true
 				<td>Drivers, Woods, Hybrids, Irons, Wedges, Putter</td>
 			</tr>
 		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="2"></td>
-				<td>100.00</td>
-			</tr>
-		</tfoot>
 	</table>
 </div>
-
-
-
 
 
 <hr class="major" />
