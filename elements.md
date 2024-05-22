@@ -44,11 +44,6 @@ nav-menu: true
 
 <!-->
 
-<div style="display: flex; justify-content: flex-end;">
-    <span class="image right"> <img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/> </span>
-	<span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
-</div>
-
 <!-----------------------------------------------Education/Schools ---------------------------------------------->
 <h2 id="content">University</h2>
 
@@ -82,10 +77,11 @@ nav-menu: true
 	</div>
 </div>
 
-<p>-------------------------------------------------------------------------------------------------------------------------</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
+<div class="row">
 <h3>Relevant Coursework</h3>
 
 <h4>UT Austin Courses</h4>
@@ -157,47 +153,27 @@ nav-menu: true
 <hr class="major" />
 <!-----------------------------------------------  SKILLS -------------------------------------------------------------------->
 <h2 id="content">Professional Skills</h2>
-<div class="box alt">
-    <div class="row 50% uniform">
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <!-- Break -->
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <!-- Break -->
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <!-- Break -->
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-        <div class="25u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-    </div>
-</div>
-
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Computer Skills</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 		<div class="box alt">
 			<div class="row 50% uniform">
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="12u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="12u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="12u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="14u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="14u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="14u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="16u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="16u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="16u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="18u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="18u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="18u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 			</div>
 		</div>
 	</div>
@@ -206,21 +182,21 @@ nav-menu: true
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 		<div class="box alt">
 			<div class="row 50% uniform">
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="6u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="6u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="6u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="8u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="8u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="8u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="25u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="10u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="10u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="10u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 			</div>
 		</div>
 	</div>
