@@ -47,16 +47,13 @@ nav-menu: true
 
 <!--PHOTOS FOR UNIVERSITY --->
 <div class="row">
-<!-- <span class="image middle"><img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/></span> -->
-
+<span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 <div style="display: flex; justify-content: flex-end;">
     <span class="image right">
         <img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/>
     </span>
 </div>
-<span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 	<div class="6u 12u$(small)">
-	<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 		<h3>The University of Texas at Austin</h3>
 		<dl>
 		<h3>Field of Study:</h3>
@@ -66,7 +63,6 @@ nav-menu: true
 		</dl>
 	</div>
 	<div class="6u 12u$(small)">
-	<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 		<h3>Universitat de Barcelona</h3>
 		<dl>
 		<h3>Field of Study:</h3>
@@ -152,7 +148,7 @@ nav-menu: true
 <!-----------------------------------------------  SKILLS -------------------------------------------------------------------->
 <h2 id="content">Professional Skills</h2>
 <div class="box alt">
-    <div class="row 50% uniform">
+    <div class="row 25% uniform">
         <div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100%; height: auto;" /></span></div>
         <div class="4u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100%; height: auto;" /></span></div>
         <div class="4u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100%; height: auto;" /></span></div>
