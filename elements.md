@@ -79,6 +79,7 @@ nav-menu: true
 
 
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -87,8 +88,9 @@ nav-menu: true
     <style>
         .row {
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
         }
         .university {
             display: flex;
@@ -102,14 +104,30 @@ nav-menu: true
             height: auto;
             max-width: 1275px; /* 15% smaller than 1500px */
         }
-        .university h3,
+        .university h3 {
+            text-align: center;
+            width: 100%;
+        }
         .university dl {
             text-align: left;
             width: 100%;
         }
+        .university dt {
+            float: left;
+            clear: left;
+            width: 150px;
+            font-weight: bold;
+        }
+        .university dd {
+            margin-left: 160px;
+        }
         @media (max-width: 800px) {
             .university {
                 width: 100%;
+            }
+            .university dt, .university dd {
+                width: 100%;
+                margin-left: 0;
             }
         }
     </style>
@@ -139,6 +157,7 @@ nav-menu: true
     </div>
 </body>
 </html>
+
 
 
 
@@ -294,7 +313,7 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="#" class="button small">Notes</a>
     </div>
-	<h>
+	<h2></h2>
 	<dt>Item2</dt>
 	<dd>
 		<p>Description</p>
@@ -305,7 +324,7 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="#" class="button small">Notes</a>
     </div>
-	<h>
+	<h2></h2>
 	<dt>Item3</dt>
 	<dd>
 		<p>Description</p>
@@ -316,7 +335,7 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="#" class="button small">Notes</a>
     </div>
-	<h>
+	<h2></h2>
 </dl>
 
 
