@@ -51,10 +51,10 @@ nav-menu: true
 <div class="row">
     <div style="display: flex; justify-content: space-between;">
         <div style="display: flex; align-items: center;">
-            <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;" /></span>
+            <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 5000px; height: auto;" /></span>
         </div>
         <div style="display: flex; align-items: center;">
-            <span class="image right"><img src="assets/images/UB.jpg" alt="" style="width: 1000px; height: auto;" /></span>
+            <span class="image right"><img src="assets/images/UB.jpg" alt="" style="width: 5000px; height: auto;" /></span>
         </div>
     </div>
     <div class="6u 12u$(small)">
