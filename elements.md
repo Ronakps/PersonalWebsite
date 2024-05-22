@@ -203,8 +203,27 @@ nav-menu: true
 </div>
 
 
-
-
+<!-------------------------------------------Certifications -------------------------------------------------------------------->
+<h4>Certifications</h4>
+<dl>
+	<dt>Item1</dt>
+	<dd>
+		<p>Description</p>
+		<!--Use this button to press to access the photo of the certificaion-->
+		<li><a href="#" class="button special">Default</a></li>
+		<!--Use this button to press to access the notes-->
+		<li><a href="#" class="button">Default</a></li>
+	</dd>
+	<dt>Item2</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<li><a href="#" class="button small">Small</a></li>
+	</dd>
+	<dt>Item3</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+</dl>
 
 
 
