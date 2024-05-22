@@ -43,6 +43,47 @@ nav-menu: true
 </div>
 
 <!-----------------------------------------------Education/Schools ---------------------------------------------->
+<h2 id="content">University</h2>
+
+<!--PHOTOS FOR UNIVERSITY --->
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="6u 12u$(small)">
+		<h3>The University of Texas at Austin</h3>
+		<dl>
+			<dt>Field of Study</dt>
+			<dd>
+				<p>Management Information Systems & Finance</p>
+			</dd>
+			<dt>Location</dt>
+			<dd>
+				<p>Austin, Texas</p>
+			</dd>
+		</dl>
+	</div>
+	<div class="6u 12u$(small)">
+		<h3>Universitat de Barcelona</h3>
+		<dl>
+			<dt>Field of Study</dt>
+			<dd>
+				<p>Business, Finance, & Liberal Arts</p>
+			</dd>
+			<dt>Location</dt>
+			<dd>
+				<p>Barcelona, Spain</p>
+			</dd>
+		</dl>
+	</div>
+</div>
+
+
+
 <h4> University </h4>
 <p><span class="image left"><img src="assets/images/UTCampus.jpg" alt="" /></span>
 <h4>The University of Texas at Austin</h4>
