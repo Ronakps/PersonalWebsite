@@ -210,6 +210,12 @@ nav-menu: true
 	<dd>
 		<p>Description</p>
 	</dd>
+	<div>
+        <!-- Use this button to press to access the photo of the certification -->
+        <a href="#" class="button small special">Default</a>
+        <!-- Use this button to press to access the notes -->
+        <a href="#" class="button small">Default</a>
+    </div>
 	<dt>Item2</dt>
 	<dd>
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
@@ -219,59 +225,6 @@ nav-menu: true
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
 	</dd>
 </dl>
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .row {
-            display: flex;
-            align-items: center;
-        }
-        .row dl, .row .buttons {
-            margin: 0 10px;
-        }
-        .buttons {
-            display: flex;
-            gap: 10px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 15px;
-            text-align: center;
-            text-decoration: none;
-            background-color: #007bff;
-            color: white;
-            border-radius: 5px;
-        }
-        .button.small {
-            font-size: 12px;
-            padding: 5px 10px;
-        }
-        .button.special {
-            background-color: #28a745;
-        }
-    </style>
-</head>
-<body>
-    <div class="row">
-        <dl>
-            <dt>Item1</dt>
-            <dd>
-                <p>Description</p>
-            </dd>
-        </dl>
-        <div class="buttons">
-            <!-- Use this button to press to access the photo of the certification -->
-            <a href="#" class="button small special">Default</a>
-            <!-- Use this button to press to access the notes -->
-            <a href="#" class="button small">Default</a>
-        </div>
-    </div>
-</body>
-</html>
 
 
 
