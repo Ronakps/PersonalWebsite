@@ -20,7 +20,7 @@ show_tile: false
         }
         .image-container img {
             width: 100%; /* Make the image fill the container */
-            height: auto; /* Maintain aspect ratio */
+            height: 50%; /* Maintain aspect ratio */
         }
     </style>
 </head>
