@@ -51,10 +51,10 @@ nav-menu: true
 <div class="row">
     <div style="display: flex; justify-content: space-between;">
         <div style="display: flex; align-items: center;">
-            <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 2000px; height: auto;" /></span>
+            <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1500px; height: auto;" /></span>
         </div>
         <div style="display: flex; align-items: center;">
-            <span class="image right"><img src="assets/images/UB.jpg" alt="" style="width: 2000px; height: auto;" /></span>
+            <span class="image right"><img src="assets/images/UB.jpg" alt="" style="width: 1500px; height: auto;" /></span>
         </div>
     </div>
     <div class="6u 12u$(small)">
@@ -210,10 +210,6 @@ nav-menu: true
 	<dd>
 		<p>Description</p>
 	</dd>
-		<!--Use this button to press to access the photo of the certificaion-->
-		<li><a href="#" class="button small special">Default</a></li>
-		<!--Use this button to press to access the notes-->
-		<li><a href="#" class="button small">Default</a></li>
 	<dt>Item2</dt>
 	<dd>
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
@@ -223,6 +219,59 @@ nav-menu: true
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
 	</dd>
 </dl>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row {
+            display: flex;
+            align-items: center;
+        }
+        .row dl, .row .buttons {
+            margin: 0 10px;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        .button.small {
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+        .button.special {
+            background-color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <dl>
+            <dt>Item1</dt>
+            <dd>
+                <p>Description</p>
+            </dd>
+        </dl>
+        <div class="buttons">
+            <!-- Use this button to press to access the photo of the certification -->
+            <a href="#" class="button small special">Default</a>
+            <!-- Use this button to press to access the notes -->
+            <a href="#" class="button small">Default</a>
+        </div>
+    </div>
+</body>
+</html>
 
 
 
