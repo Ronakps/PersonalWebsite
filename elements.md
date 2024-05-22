@@ -78,6 +78,8 @@ nav-menu: true
 </div>
 
 
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -98,9 +100,9 @@ nav-menu: true
             margin: 20px 0;
         }
         .university img {
-            width: 100%;
+            width: 65%; /* 35% smaller */
             height: auto;
-            max-width: 1275px; /* 15% smaller than 1500px */
+            max-width: 100%;
         }
         .university h3 {
             text-align: center;
@@ -118,6 +120,9 @@ nav-menu: true
         }
         .university dd {
             margin-left: 160px;
+        }
+        .university .location {
+            clear: both;
         }
         .university .img-container {
             display: flex;
@@ -151,8 +156,8 @@ nav-menu: true
             <dl>
                 <dt>Field of Study:</dt>
                 <dd>Management Information Systems & Finance</dd>
-                <dt>Location:</dt>
-                <dd>Austin, Texas</dd>
+                <dt class="location">Location:</dt>
+                <dd class="location">Austin, Texas</dd>
             </dl>
         </div>
         <div class="university">
@@ -163,13 +168,14 @@ nav-menu: true
             <dl>
                 <dt>Field of Study:</dt>
                 <dd>Business, Finance, & Liberal Arts</dd>
-                <dt>Location:</dt>
-                <dd>Barcelona, Spain</dd>
+                <dt class="location">Location:</dt>
+                <dd class="location">Barcelona, Spain</dd>
             </dl>
         </div>
     </div>
 </body>
 </html>
+
 
 
 
@@ -317,9 +323,9 @@ nav-menu: true
 <!-------------------------------------------Certifications -------------------------------------------------------------------->
 <h4>Certifications</h4>
 <dl>
-	<dt>Item1</dt>
+	<dt>Introduction to Data Science</dt>
 	<dd>
-		<p>Description</p>
+		<p>The world of data science is reshaping every business, regardless of industry, location, or role. And there’s never been a better time to get up to speed and learn the basics of this booming field. In this course, designed specifically for beginners, explore the world of data science, its opportunities and innovations, and the fundamental skills required for success. Join Python trainer and data science expert Lavanya Vijayan as she shares what data science is and how it differs from other common data-related careers. Discover some of the most important tools used in the trade to develop your understanding of data libraries and data manipulation. Along the way, get an introduction to exploratory data analysis, data cleaning, data visualization, sampling, testing, estimating, and more. By the end of this course, you’ll know how to use inference and statistical analysis to make more reliable predictions for your business.</p>
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
@@ -328,9 +334,9 @@ nav-menu: true
         <a href="#" class="button small">Notes</a>
     </div>
 	<h2></h2>
-	<dt>Item2</dt>
+	<dt>The Non-Technical Skills of Effective Data Scientists</dt>
 	<dd>
-		<p>Description</p>
+		<p>Most data science training focuses only on key technologies. But real-world data science jobs require more than just technical acumen. When new data scientists change their focus from the classroom to the boardroom, they must be able to empathize, persuade, and lead others if they want to successfully run projects that produce business transformation. This course was designed to help you learn these, and other, nontechnical skills that can help you convert your first data science job into a successful, lifelong career. There are predictable challenges to be overcome when predictive models introduce change in organizations. Throughout this course, instructor Keith McCormick goes over these challenges and shows how to overcome them. Discover how to confidently defend your turf at work, enhance your own natural curiosity, deepen your commitment to your craft, effectively translate the language of analytics to the language of business, practice diplomacy, and more.</p>
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
@@ -339,9 +345,9 @@ nav-menu: true
         <a href="#" class="button small">Notes</a>
     </div>
 	<h2></h2>
-	<dt>Item3</dt>
+	<dt>Data-Driven Product Management</dt>
 	<dd>
-		<p>Description</p>
+		<p>In this course with product strategist Drew Falkman, learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations. Learning objectives: 1. Discover best practices for using metrics to drive key product decisions.2. Learn how to establish and maintain a data-driven product strategy.3. Recognize key product analytics to measure, and the insight they provide.4. Learn how to make data-driven business cases.5. Learn how to experiment with the data insights you're gathering to improve product/market fit and performance.6. Explore advanced analytics considerations for product managers and their organizations.</p>
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
