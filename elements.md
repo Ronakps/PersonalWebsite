@@ -51,36 +51,34 @@ nav-menu: true
 <div class="row">
 <div style="display: flex; justify-content: space-between;">
     <div style="display: flex; align-items: center;">
-        <span class="image left"><img src="assets/images/UTCampus.jpeg" alt="" style="width: 100000px; height: auto;"/></span>
+        <span class="image left"><img src="assets/images/UTCampus.jpeg" alt="" style="width: auto; height: auto;"/></span>
     </div>
     <div style="display: flex; align-items: center;">
-        <span class="image right"> <img src="assets/images/UB.jpeg" alt="" style="width: 100000px; height: auto;"/> </span>
+        <span class="image right"> <img src="assets/images/UB.jpeg" alt="" style="width: auto; height: auto;"/> </span>
     </div>
 </div>
 	<div class="6u 12u$(small)">
 		<h3>The University of Texas at Austin</h3>
 		<dl>
-		<h3>Field of Study:</h3>
+		<b>Field of Study:</b>
 		<p>Management Information Systems & Finance</p>
-		<h3>Location:</h3>
+		<b>Location:</b>
 		<p>Austin, Texas</p>
 		</dl>
 	</div>
 	<div class="6u 12u$(small)">
 		<h3>Universitat de Barcelona</h3>
 		<dl>
-		<h3>Field of Study:</h3>
+		<b>Field of Study:</b>
 		<p>Business, Finance, & Liberal Arts</p>
-		<h3>Location:</h3>
+		<b>Location:</b>
 		<p>Barcelona, Spain</p>
 		</dl>
 	</div>
 </div>
 
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
+<hr>
+<hr />
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
@@ -158,7 +156,6 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Computer Skills</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 		<div class="box alt">
 			<div class="row 50% uniform">
 				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
@@ -178,31 +175,30 @@ nav-menu: true
 				<div class="4u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 			</div>
 		</div>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>My proficiency in various computer skills like MS Excel, PowerPoint, and Tableau allows me to effectively manipulate and analyze data, crucial for roles in data science and analysis. Additionally, expertise in tools like PowerBI and WEKA enhances my ability to derive insights from complex datasets, essential for data analysis roles. Moreover, familiarity with project management platforms like Jira and software development environments like Visual Studio makes me an asset in product management, where efficient project coordination is essential. Overall, my diverse computer skills make me a valuable employee in the tech industry, offering versatility and efficiency across product management, data science, and data analysis domains.</p>
 	</div>
 	<div class="6u 12u$(small)">
-	        <div class="divider"></div> <!-- Vertical divider -->
 		<h3>Coding Skills</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 		<div class="box alt">
 			<div class="row 50% uniform">
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/GSuite.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/JIRA.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/aspdotnet.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/c++.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/css.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Lucidchart.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerAutomate.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/PowerBI.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/dotnet.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/dotnetcore.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/github.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Powerpoint.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/tableau.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/talentlms.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/html.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/javascript.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/mvc.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/VSCode.png" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/WEKA.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
-				<div class="4u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/python.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/r.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
+				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/sql.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 			</div>
 		</div>
+		<p>My proficiency spans various coding languages, including Python, SQL, JavaScript, and more, showcased through active contributions on GitHub. This skill set makes me a valuable asset in product management, where effective communication with developers is crucial. Additionally, my expertise in data science, evident in my mastery of Python and R, enables me to derive actionable insights from complex datasets, ideal for data analysis roles. Moreover, familiarity with .NET technologies like C# and .ASP.NET, combined with MVC architecture knowledge, positions me well for software development roles, where building robust applications is essential.</p>
 	</div>
 </div>
 <!-- Content -->
