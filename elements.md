@@ -51,12 +51,13 @@ nav-menu: true
 <div class="row">
 <div style="display: flex; justify-content: space-between;">
     <div style="display: flex; align-items: center;">
-        <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 100000px; height: auto;"/></span>
+        <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="max-width: 100%; height: auto;"/></span>
     </div>
     <div style="display: flex; align-items: center;">
-        <span class="image right"> <img src="assets/images/unidebarca.jpg" alt="" style="width: 100000px; height: auto;"/> </span>
+        <span class="image right"> <img src="assets/images/unidebarca.jpg" alt="" style="max-width: 100%; height: auto;"/> </span>
     </div>
 </div>
+<div>
 	<div class="6u 12u$(small)">
 		<h3>The University of Texas at Austin</h3>
 		<dl>
@@ -79,7 +80,6 @@ nav-menu: true
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
-<div class="row">
 <h3>Relevant Coursework</h3>
 
 <h4>UT Austin Courses</h4>
@@ -151,6 +151,13 @@ nav-menu: true
 <hr class="major" />
 <!-----------------------------------------------  SKILLS -------------------------------------------------------------------->
 <h2 id="content">Professional Skills</h2>
+<style>
+        .divider {
+            border-left: 1px solid #ccc; /* Vertical line properties */
+            height: 100%; /* Match the height of the container */
+            margin-left: 15px; /* Adjust margin as needed */
+        }
+    </style>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Computer Skills</h3>
@@ -175,6 +182,7 @@ nav-menu: true
 			</div>
 		</div>
 	</div>
+	<div class="divider"></div> <!-- Vertical divider -->
 	<div class="6u 12u$(small)">
 		<h3>Coding Skills</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
