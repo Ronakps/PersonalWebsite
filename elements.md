@@ -51,10 +51,10 @@ nav-menu: true
 <div class="row">
 <div style="display: flex; justify-content: space-between;">
     <div style="display: flex; align-items: center;">
-        <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 100000px; height: auto;"/></span>
+        <span class="image left"><img src="assets/images/UTCampus.jpeg" alt="" style="width: 100000px; height: auto;"/></span>
     </div>
     <div style="display: flex; align-items: center;">
-        <span class="image right"> <img src="assets/images/unidebarca.jpg" alt="" style="width: 100000px; height: auto;"/> </span>
+        <span class="image right"> <img src="assets/images/UB.jpeg" alt="" style="width: 100000px; height: auto;"/> </span>
     </div>
 </div>
 	<div class="6u 12u$(small)">
@@ -76,6 +76,11 @@ nav-menu: true
 		</dl>
 	</div>
 </div>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
@@ -150,13 +155,6 @@ nav-menu: true
 <hr class="major" />
 <!-----------------------------------------------  SKILLS -------------------------------------------------------------------->
 <h2 id="content">Professional Skills</h2>
-<style>
-        .divider {
-            border-left: 1px solid #ccc; /* Vertical line properties */
-            height: 100%; /* Match the height of the container */
-            margin-left: 15px; /* Adjust margin as needed */
-        }
-    </style>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Computer Skills</h3>
@@ -180,6 +178,7 @@ nav-menu: true
 				<div class="4u"><span class="image fit"><img src="assets/images/Skills/WIX.png" alt="" style="width: 100px; height: 100px;" /></span></div>
 			</div>
 		</div>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 	<div class="6u 12u$(small)">
 	        <div class="divider"></div> <!-- Vertical divider -->
