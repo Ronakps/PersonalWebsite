@@ -79,7 +79,6 @@ nav-menu: true
 
 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -95,13 +94,18 @@ nav-menu: true
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: center;
             width: 45%;
             margin: 20px 0;
         }
         .university img {
             width: 100%;
             height: auto;
+            max-width: 1275px; /* 15% smaller than 1500px */
+        }
+        .university h3,
+        .university dl {
+            text-align: left;
+            width: 100%;
         }
         @media (max-width: 800px) {
             .university {
@@ -113,7 +117,7 @@ nav-menu: true
 <body>
     <div class="row">
         <div class="university">
-            <img src="assets/images/UTCampus.jpg" alt="The University of Texas at Austin" style="max-width: 1500px;">
+            <img src="assets/images/UTCampus.jpg" alt="The University of Texas at Austin">
             <h3>The University of Texas at Austin</h3>
             <dl>
                 <dt>Field of Study:</dt>
@@ -123,7 +127,7 @@ nav-menu: true
             </dl>
         </div>
         <div class="university">
-            <img src="assets/images/UB.jpg" alt="Universitat de Barcelona" style="max-width: 1500px;">
+            <img src="assets/images/UB.jpg" alt="Universitat de Barcelona">
             <h3>Universitat de Barcelona</h3>
             <dl>
                 <dt>Field of Study:</dt>
@@ -135,6 +139,7 @@ nav-menu: true
     </div>
 </body>
 </html>
+
 
 
 
@@ -289,6 +294,7 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="#" class="button small">Notes</a>
     </div>
+	<h>
 	<dt>Item2</dt>
 	<dd>
 		<p>Description</p>
@@ -299,6 +305,7 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="#" class="button small">Notes</a>
     </div>
+	<h>
 	<dt>Item3</dt>
 	<dd>
 		<p>Description</p>
@@ -309,6 +316,7 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="#" class="button small">Notes</a>
     </div>
+	<h>
 </dl>
 
 
