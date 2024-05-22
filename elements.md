@@ -49,33 +49,34 @@ nav-menu: true
 
 <!--PHOTOS FOR UNIVERSITY --->
 <div class="row">
-<div style="display: flex; justify-content: space-between;">
-    <div style="display: flex; align-items: center;">
-        <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 10000000; height: auto;"/></span>
+    <div style="display: flex; justify-content: space-between;">
+        <div style="display: flex; align-items: center;">
+            <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 500px; height: auto;" /></span>
+        </div>
+        <div style="display: flex; align-items: center;">
+            <span class="image right"><img src="assets/images/UB.jpg" alt="" style="width: 500px; height: auto;" /></span>
+        </div>
     </div>
-    <div style="display: flex; align-items: center;">
-        <span class="image right"> <img src="assets/images/UB.jpg" alt="" style="width: 10000000; height: auto;"/> </span>
+    <div class="6u 12u$(small)">
+        <h3>The University of Texas at Austin</h3>
+        <dl>
+            <b>Field of Study:</b>
+            <p>Management Information Systems & Finance</p>
+            <b>Location:</b>
+            <p>Austin, Texas</p>
+        </dl>
+    </div>
+    <div class="6u 12u$(small)">
+        <h3>Universitat de Barcelona</h3>
+        <dl>
+            <b>Field of Study:</b>
+            <p>Business, Finance, & Liberal Arts</p>
+            <b>Location:</b>
+            <p>Barcelona, Spain</p>
+        </dl>
     </div>
 </div>
-	<div class="6u 12u$(small)">
-		<h3>The University of Texas at Austin</h3>
-		<dl>
-		<b>Field of Study:</b>
-		<p>Management Information Systems & Finance</p>
-		<b>Location:</b>
-		<p>Austin, Texas</p>
-		</dl>
-	</div>
-	<div class="6u 12u$(small)">
-		<h3>Universitat de Barcelona</h3>
-		<dl>
-		<b>Field of Study:</b>
-		<p>Business, Finance, & Liberal Arts</p>
-		<b>Location:</b>
-		<p>Barcelona, Spain</p>
-		</dl>
-	</div>
-</div>
+
 
 <hr class="major" />
 
