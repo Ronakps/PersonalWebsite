@@ -78,8 +78,6 @@ nav-menu: true
 </div>
 
 
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -121,6 +119,17 @@ nav-menu: true
         .university dd {
             margin-left: 160px;
         }
+        .university .img-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 500px; /* Set a fixed height to ensure both images are the same height */
+            overflow: hidden;
+        }
+        .university .img-container img {
+            height: 100%;
+            width: auto;
+        }
         @media (max-width: 800px) {
             .university {
                 width: 100%;
@@ -135,7 +144,9 @@ nav-menu: true
 <body>
     <div class="row">
         <div class="university">
-            <img src="assets/images/UTCampus.jpg" alt="The University of Texas at Austin">
+            <div class="img-container">
+                <img src="assets/images/UTCampus.jpg" alt="The University of Texas at Austin">
+            </div>
             <h3>The University of Texas at Austin</h3>
             <dl>
                 <dt>Field of Study:</dt>
@@ -145,7 +156,9 @@ nav-menu: true
             </dl>
         </div>
         <div class="university">
-            <img src="assets/images/UB.jpg" alt="Universitat de Barcelona">
+            <div class="img-container">
+                <img src="assets/images/UB.jpg" alt="Universitat de Barcelona">
+            </div>
             <h3>Universitat de Barcelona</h3>
             <dl>
                 <dt>Field of Study:</dt>
@@ -157,6 +170,7 @@ nav-menu: true
     </div>
 </body>
 </html>
+
 
 
 
