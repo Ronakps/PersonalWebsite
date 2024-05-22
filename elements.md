@@ -54,7 +54,7 @@ nav-menu: true
 </div> -->
 
 <div class="alt">
-	<div class="row 200% uniform">
+	<div class="row 1000% uniform">
 		<div class="4u"><span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span></div>
 		<div class="4u"><span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span></div>
 	</div>
