@@ -46,30 +46,12 @@ nav-menu: true
 <h2 id="content">University</h2>
 
 <!--PHOTOS FOR UNIVERSITY --->
-<!-- <div class="box alt">
-    <div class="row">
-        <div class="col-md-6 d-flex justify-content-start align-items-center">
-            <span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span>
-        </div>
-        <div class="col-md-6 d-flex justify-content-end align-items-center">
-            <span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span>
-        </div>
-    </div>
-</div> -->
-
-<!-- <div class="alt">
-	<div class="row 100% uniform">
-		<div class="4u"><span class="image fit"><img src="assets/images/UTCampus.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/unidebarca.jpg" alt="" /></span></div>
-	</div>
-</div> -->
-
 <div class="row">
-<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/></span>
+<span class="image middle"><img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 <span class="image left"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 	<div class="6u 12u$(small)">
+	<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 		<h3>The University of Texas at Austin</h3>
-		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1400px; height: auto;"/></span>
 		<dl>
 		<h3>Field of Study:</h3>
 		<p>Management Information Systems & Finance</p>
@@ -78,8 +60,8 @@ nav-menu: true
 		</dl>
 	</div>
 	<div class="6u 12u$(small)">
+	<span class="image right"><img src="assets/images/unidebarca.jpg" alt="" style="width: 1000px; height: auto;"/></span>
 		<h3>Universitat de Barcelona</h3>
-		<span class="image right"><img src="assets/images/UTCampus.jpg" alt="" style="width: 1400px; height: auto;"/></span>
 		<dl>
 		<h3>Field of Study:</h3>
 		<p>Business, Finance, & Liberal Arts</p>
@@ -89,33 +71,6 @@ nav-menu: true
 	</div>
 </div>
 
-
-
-<h4> University </h4>
-<p><span class="image left"><img src="assets/images/UTCampus.jpg" alt="" /></span>
-<h4>The University of Texas at Austin</h4>
-<dl>
-	<dt>Field of Study</dt>
-	<dd>
-		<p>Management Information Systems & Finance</p>
-	</dd>
-	<dt>Location</dt>
-	<dd>
-		<p>Austin, Texas</p>
-	</dd>
-</dl></p>
-<p><span class="image right"><img src="assets/images/unidebarca.jpg" alt="" /></span>
-<h4>Universitat de Barcelona</h4>
-<dl>
-	<dt>Field of Study</dt>
-	<dd>
-		<p>Business, Finance, & Liberal Arts</p>
-	</dd>
-	<dt>Location</dt>
-	<dd>
-		<p>Barcelona, Spain</p>
-	</dd>
-</dl></p>
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
@@ -192,17 +147,21 @@ nav-menu: true
 <h2 id="content">Professional Skills</h2>
 <div class="box alt">
 	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
 		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
 		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="" alt="" /></span></div>
 	</div>
 </div>
 
