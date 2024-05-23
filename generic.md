@@ -22,8 +22,7 @@ nav-menu: true
 </head>
 <body>
     <h3>My Travel Map</h3>
-    <blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to</blockquote>
-    <p>Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</p>
+    <blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to. Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</blockquote>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
