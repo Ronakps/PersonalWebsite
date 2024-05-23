@@ -79,6 +79,9 @@ nav-menu: true
 
 
 
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -112,8 +115,6 @@ nav-menu: true
             width: 100%;
         }
         .university dt {
-            float: left;
-            clear: left;
             width: 150px;
             font-weight: bold;
         }
@@ -121,7 +122,11 @@ nav-menu: true
             margin-left: 160px;
         }
         .university .location {
-            clear: both;
+            display: inline-block;
+            width: 150px;
+        }
+        .university .location + dd {
+            margin-left: 10px;
         }
         .university .img-container {
             display: flex;
@@ -174,6 +179,7 @@ nav-menu: true
     </div>
 </body>
 </html>
+
 
 
 
