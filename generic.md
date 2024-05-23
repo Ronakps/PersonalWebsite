@@ -9,6 +9,7 @@ nav-menu: true
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
 <h3>My Travel Map</h3>
 <blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to</blockquote>
+<p>Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</p>
 
  <!DOCTYPE html>
     <html lang="en">
