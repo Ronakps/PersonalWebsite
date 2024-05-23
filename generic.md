@@ -139,20 +139,20 @@ nav-menu: true
 <div class="box alt">
     <div class="row 50% uniform">
         <!-- First Row -->
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/chelsea.jpeg" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/cowboys.jpeg" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/fcbarca.png" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/longhorns.png" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/mavs.png" alt="" /></span></div>
-        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/pga.jpeg" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/chelsea.jpeg" alt="" style="height: 100px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/cowboys.jpeg" alt="" style="height: 100px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/fcbarca.png" alt="" style="height: 100px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/longhorns.png" alt="" style="height: 100px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/mavs.png" alt="" style="height: 100px;"/></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/pga.jpeg" alt="" style="height: 100px;"/></span></div>
         <!-- Break -->
         <!-- Second Row -->
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/interMiami.png" alt="" /></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujrat.png" alt="" /></span></div>
-        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" style="height: 50px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" style="height: 50px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" style="height: 50px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.png" alt="" style="height: 50px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujarat.png" alt=""style="height: 50px;" /></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" style="height: 50px;"/></span></div>
     </div>
         <!-- Text block spanning the width of the photos -->
     <div class="row uniform">
