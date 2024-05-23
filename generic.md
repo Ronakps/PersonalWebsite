@@ -106,6 +106,7 @@ nav-menu: true
 </body>
 </html>
 
+<hr class="major" />
 
 <!----------------------------------------------My Activities / FUN FACTS ---------------------------------------------------->
 <div class="row">
@@ -134,18 +135,7 @@ nav-menu: true
     </div>
 </div>
 
-<!----------------------------------------------Fun Facts---------------------------------------------------->
-<h3>Fun Facts</h3>
-<div class="row">
-	<div class="6u 12u$(small)">
-		<ul class="alt">
-            <li>Ran a half marathon in 2 hours & 3 minutes</li>
-            <li>Read Outliers by Malcolm Gladwell 3 times</li>
-            <li>Watched Interstellar by Christopher Nolan 8 times</li>
-            <li>Watched all 12 movies directed by Christopher Nolan</li>
-		</ul>
-    </div>
-</div>
+<hr class="major" />
 
 <!----------------------------------------------My sports teams---------------------------------------------------->
 <h3>My Sport Teams</h3>
