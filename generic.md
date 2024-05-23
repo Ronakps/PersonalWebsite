@@ -7,10 +7,6 @@ nav-menu: true
 ---
 
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
-<h3>My Travel Map</h3>
-<blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to</blockquote>
-<p>Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</p>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,25 +107,6 @@ nav-menu: true
 </body>
 </html>
 
-<!----------------------------------------------My sports teams---------------------------------------------------->
-<h4>My Sports team</h4>
-<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-	</div>
-</div>
-
 <!----------------------------------------------My Activities---------------------------------------------------->
 <h3>Activities</h3>
 <p>I love to explore different parts of life whenever I have free time. This includes...</p>
@@ -145,15 +122,43 @@ nav-menu: true
     </div>
 </div>
 
-<!----------------------------------------------My Activities---------------------------------------------------->
+<!----------------------------------------------Fun Facts---------------------------------------------------->
+<h3>Fun Facts</h3>
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h4>Fun Facts</h4>
 		<ul class="alt">
             <li>Ran a half marathon in 2 hours & 3 minutes</li>
             <li>Read Outliers by Malcolm Gladwell 3 times</li>
             <li>Watched Interstellar by Christopher Nolan 8 times</li>
             <li>Watched all 12 movies directed by Christopher Nolan</li>
 		</ul>
+    </div>
+</div>
+
+<!----------------------------------------------My sports teams---------------------------------------------------->
+<h3>My Sport Teams</h3>
+<div class="box alt">
+    <div class="row 50% uniform">
+        <!-- First Row -->
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/chelsea.jpeg" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/cowboys.jpeg" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/fcbarca.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/longhorns.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/mavs.png" alt="" /></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/pga.jpeg" alt="" /></span></div>
+        <!-- Break -->
+        <!-- Second Row -->
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/interMiami.png" alt="" /></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujrat.png" alt="" /></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" /></span></div>
+    </div>
+        <!-- Text block spanning the width of the photos -->
+    <div class="row uniform">
+        <div class="12u">
+            <p>My favorite sports teams span across various leagues and include some of the most iconic names in sports. In the NFL, I root for the Dallas Cowboys (hoping we win a Super Bowl one day), while in the NBA, I support the Dallas Mavericks, home to star player Luka Dončić. For baseball, I follow the Texas Rangers, and in the NHL, I'm a fan of the Dallas Stars. My college sports allegiance lies with the Texas Longhorns (Hook 'em!), and in the WNBA, I root for the Dallas Wings. Additionally, I follow golf stars Rory McIlroy and Jordan Spieth, support FC Barcelona in LaLiga, Chelsea F.C. in the Premier League, Inter Miami in the MLS, and the Gujarat Titans in the IPL, with tennis legend Rafael Nadal rounding out my favorite athletes. I absolutely love sports so very open to talk about any and all sports.</p>
+        </div>
     </div>
 </div>
