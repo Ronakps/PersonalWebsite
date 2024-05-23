@@ -122,10 +122,12 @@ nav-menu: true
     </div>
     <div class="6u 12u$(small)">
         <h3>Fun Facts</h3>
+        <p>Some interesting things about me...</p>
 		<ul class="alt">
-            <li>Ran a half marathon in 2 hours & 3 minutes</li>
+            <li>Ran a half marathon in 2 hours & 3 minutes (I love strava)</li>
             <li>Read Outliers by Malcolm Gladwell 3 times</li>
             <li>Watched Interstellar by Christopher Nolan 8 times</li>
+            <li>At one point, I ate chipotle everyday for 84 days straight(12 weeks)</li>
             <li>Watched all 12 movies directed by Christopher Nolan</li>
 		</ul>
     </div>
