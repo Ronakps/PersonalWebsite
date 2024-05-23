@@ -1,0 +1,10 @@
+﻿@model Group5_LonghornAirlines_FinalProject.Models.ReservationEmbryo
+
+@foreach (var flyer in Model.Flyers)
+{
+    <tr>
+        <td>@($"{flyer.Customer.FirstName} {flyer.Customer.LastName}")</td>
+        <td>@flyer.Customer.AdvantageNumber</td>
+        <td>@flyer.SelectedSeat</td>
+    </tr>
+}

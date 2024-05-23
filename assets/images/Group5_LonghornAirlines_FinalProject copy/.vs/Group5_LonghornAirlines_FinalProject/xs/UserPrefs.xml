@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{93434C25-3A68-4C5C-BED4-11E2BE2876B1}|http">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Group5__LonghornAirlines__FinalProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Group5_LonghornAirlines_FinalProject/Controllers/ReservationController.cs">
+    <Files>
+      <File FileName="Group5_LonghornAirlines_FinalProject/Controllers/FlightsController.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Controllers/TicketsController.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/Flights/Details.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/Tickets/ChooseSeatOnFlight.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Models/Flight.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Controllers/AccountController.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Controllers/AppUserController.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Controllers/ReservationController.cs" Line="139" Column="1" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Models/AppUser.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Models/ViewModels/AccountViewModels.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/AppUser/Details.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Models/ViewModels/EditUser.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Seeding/SeedUsers.cs" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/AppUser/Index.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/Flights/Index.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/Reservation/Details.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/Reservation/Confirm.cshtml" />
+      <File FileName="Group5_LonghornAirlines_FinalProject/Views/Reservation/Create.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Group5_LonghornAirlines_FinalProject">
+            <Node name="Group5_LonghornAirlines_FinalProject" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ReservationController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Seeding" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Flights" expanded="True" />
+                <Node name="Reports" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

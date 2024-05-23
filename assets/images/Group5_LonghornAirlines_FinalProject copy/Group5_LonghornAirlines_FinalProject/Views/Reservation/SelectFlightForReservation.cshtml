@@ -1,0 +1,15 @@
+﻿@model Reservation
+
+@{
+    ViewData["Title"] = "Select Flight";
+}
+
+<h1>Select Flight</h1>
+
+<form asp-action="SelectFlightForReservation" asp-controller="Reservation" method="post">
+    <div class="form-group">
+        <label for="SelectedFlight">Select a Flight:</label>
+        @Html.DropDownList("SelectedFlight", (SelectList)ViewBag.Flights, "Select Flight", new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

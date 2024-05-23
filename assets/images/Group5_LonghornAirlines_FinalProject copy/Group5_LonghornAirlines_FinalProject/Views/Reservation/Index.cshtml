@@ -1,0 +1,95 @@
+@model IEnumerable<Group5_LonghornAirlines_FinalProject.Models.Reservation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (User.IsInRole("Customer"))
+{
+    <h1>View all of your Reservations!</h1>
+    <h2>All reservations you purchased or are a ticketholder on:</h2>
+}
+else
+{
+    <h1>View all Reservations!</h1>
+}
+
+
+
+
+<form asp-action="Index" asp-controller="Reservation" method="get">
+    <p class="form-group">
+        Search Reservation Number or go to detailed search: <input name="SearchString" class="form-control" /><br />
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-action="DetailedSearch" class="btn btn-success">Detailed Search</a>
+        <a asp-action="Index" class="btn btn-danger">Show All Reservations</a>
+    </p>
+</form>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>
+        <a asp-action="Create" asp-controller="Reservation" class="btn btn-danger">Create New Reservation </a>
+
+    </p>
+}
+
+@if (!User.IsInRole("Customer"))
+{
+    <p>
+        Displaying @ViewBag.SelectedReservationCount of @ViewBag.TotalReservationsCount Reservations
+    </p>
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ReservationNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PaymentType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                Departure Time
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservationNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaymentType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total)
+                </td>
+                <td>
+                    @if (item.Tickets.Any())
+                    {
+                        @item.Tickets.First().Flight.DepartureTime
+                    }
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ReservationID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ReservationID">Details</a> |
+                    @if (item.ReservationStatus != ReservationStatus.Canceled)
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.ReservationID">Cancel</a>
+
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@model Group5_LonghornAirlines_FinalProject.Models.Reservation
+
+@{
+    ViewData["Title"] = "Select a Customer";
+}
+
+<h1>Select the Reserver for this reservation.</h1>
+
+@* @if (!string.IsNullOrEmpty(ViewBag.MilesMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.MilesMessage
+    </div>
+} *@
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SelectCustomerForReservation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(model => model.ReservationID)
+            @Html.HiddenFor(model => model.RequestedFlightNum)
+
+            <div class="form-group">
+                <label class="control-label">All Customers:</label>
+                @Html.DropDownList("SelectedCustomer", (SelectList)@ViewBag.UserNames, new { @class = "form-control" })
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Select Customer" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

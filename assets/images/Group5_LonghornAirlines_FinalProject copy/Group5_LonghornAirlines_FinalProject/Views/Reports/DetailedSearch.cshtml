@@ -1,0 +1,61 @@
+@model Group5_LonghornAirlines_FinalProject.Models.ReportsViewModel
+
+@{
+    ViewData["Title"] = "DetailedSearch";
+}
+
+<h1>DetailedSearch</h1>
+
+<h4>ReportsViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DetailedSearch">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MinDate" class="control-label"></label>
+                <input asp-for="MinDate" class="form-control" />
+                <span asp-validation-for="MinDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxDate" class="control-label"></label>
+                <input asp-for="MaxDate" class="form-control" />
+                <span asp-validation-for="MaxDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartureCity" class="control-label"></label>
+                <select asp-for="DepartureCity" asp-items="Html.GetEnumSelectList<City>()" class="form-control">
+                    <option selected="selected" value="">All Cities</option>
+                </select>
+                <span asp-validation-for="DepartureCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArrivalCity" class="control-label"></label>
+                <select asp-for="ArrivalCity" asp-items="Html.GetEnumSelectList<City>()" class="form-control">
+                    <option selected="selected" value="">All Cities</option>
+                </select>
+                <span asp-validation-for="ArrivalCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeatStatus" class="control-label"></label>
+                <select asp-for="SeatStatus" asp-items="Html.GetEnumSelectList<SeatStatus>()" class="form-control">
+                    <option selected="selected" value="">All Seat Statuses</option>
+                </select>
+                <span asp-validation-for="SeatStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <!--BEcasue input type is submit, that indicates it is a button -->
+                <!--This asp action allows the. WHen this form is submitted(when the button is pressed), it shows which action method to go to-->
+                <input type="submit" value="Search" class="btn btn-primary"
+                       asp-action="DisplaySearchResults" />
+                <!--If you wanted to add more buttons, you would copy this code and switch the asp-action name.
+        button primary is simply the color of the button-->
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

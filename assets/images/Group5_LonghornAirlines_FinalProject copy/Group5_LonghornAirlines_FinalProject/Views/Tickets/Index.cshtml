@@ -1,0 +1,116 @@
+@model IEnumerable<Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.DepartureTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightPath.DepartureCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightPath.ArrivalCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketHolder.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketHolder.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketStatus)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.DepartureTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.FlightPath.DepartureCity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.FlightPath.ArrivalCity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketHolder.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketHolder.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketStatus)
+                </td>
+                <td>
+                    @if (item.Flight.DepartureTime > DateTime.Now.AddHours(1))
+                    {
+                        @if (item.TicketPaymentType == TicketPaymentType.Cash)
+                        {
+                            <a asp-action="ChooseNewSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Seat</a>
+                        }
+                        @if (item.TicketPaymentType == TicketPaymentType.Miles && item.SeatStatus == SeatStatus.Economy)
+                        {
+                            <a asp-action="ChooseEconomySeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Economy Seat (Miles)</a>
+                        }
+
+                        @if (item.TicketPaymentType == TicketPaymentType.Miles && item.SeatStatus == SeatStatus.FirstClass)
+                        {
+                            <a asp-action="ChooseMilesFCSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Seat (Miles)</a>
+                        }
+                        <a asp-action="ChangeFlight" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Flight</a>
+                        @if (item.TicketStatus == TicketStatus.Pending)
+                        {
+                            <a asp-action="CheckoutPending" asp-route-id="@item.TicketID">Checkout Ticket</a>
+                        }
+                        @if (item.TicketStatus != TicketStatus.Canceled)
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.TicketID">Cancel</a>
+                        }
+                        @if (item.TicketPaymentType == TicketPaymentType.Cash && item.SeatStatus == SeatStatus.Economy)
+                        {
+                            <a asp-action="ChooseUpgradedSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Upgrade Seat with Miles</a>
+                        }
+                    }
+                    @*@if (item.TicketPaymentType == TicketPaymentType.Cash)
+        {
+            <a asp-action="ChooseNewSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Seat</a>
+        }
+        @if (item.TicketPaymentType == TicketPaymentType.Miles && item.SeatStatus == SeatStatus.Economy)
+        {
+            <a asp-action="ChooseEconomySeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Economy Seat (Miles)</a>
+        }
+
+        @if (item.TicketPaymentType == TicketPaymentType.Miles && item.SeatStatus == SeatStatus.FirstClass)
+        {
+            <a asp-action="ChooseMilesFCSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Seat (Miles)</a>
+        }
+        <a asp-action="ChangeFlight" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Change Flight</a>
+        <a asp-action="CheckoutPending" asp-route-id="@item.TicketID">Checkout Ticket</a>
+        @if (item.TicketStatus != TicketStatus.Canceled)
+        {
+            <a asp-action="Delete" asp-route-id="@item.TicketID">Cancel</a>
+        }
+        @if (item.TicketPaymentType == TicketPaymentType.Cash && item.SeatStatus == SeatStatus.Economy)
+        {
+            <a asp-action="ChooseUpgradedSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Upgrade Seat with Miles</a>
+        }*@
+                    @*@if (item.TicketPaymentType == TicketPaymentType.Cash && item.Reservation.PaymentType == PaymentType.Miles && item.SeatStatus == SeatStatus.Economy)
+        {
+            <a asp-action="ChooseUpgradedSeat" asp-route-flightId="@item.Flight.FlightID" asp-route-ticketId="@item.TicketID">Upgrade Seat with Miles</a>
+        }*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

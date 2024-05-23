@@ -1,0 +1,96 @@
+@model Group5_LonghornAirlines_FinalProject.Models.Reservation
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Reservation Details</h1>
+
+<div class="card">
+    <div class="card-header">
+        Reservation Information
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Primary Reserver:</dt>
+            <dd class="col-sm-9">@Model.User.FirstName @Model.User.LastName</dd>
+
+            <dt class="col-sm-3">Reservation Number:</dt>
+            <dd class="col-sm-9">@Model.ReservationNumber</dd>
+
+            <dt class="col-sm-3">Price:</dt>
+            <dd class="col-sm-9">@Model.Total.ToString("C2")</dd>
+
+            <dt class="col-sm-3">Price in Miles:</dt>
+            <dd class="col-sm-9">@Model.PriceInMilesTotal.ToString("N0")</dd>
+
+            <dt class="col-sm-3">Payment Type:</dt>
+            <dd class="col-sm-9">@Model.PaymentType</dd>
+
+            <dt class="col-sm-3">Reservation Status:</dt>
+            <dd class="col-sm-9">@Model.ReservationStatus</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="card mt-4">
+    <div class="card-header">
+        Ticket Details
+    </div>
+    <div class="card-body">
+        @foreach (var ticket in Model.Tickets)
+        {
+            <div class="card mb-3">
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">Name:</dt>
+                        <dd class="col-sm-9">@ticket.TicketHolder.FirstName @ticket.TicketHolder.LastName</dd>
+
+                        <dt class="col-sm-3">Ticket ID:</dt>
+                        <dd class="col-sm-9">@ticket.TicketID</dd>
+
+                        <dt class="col-sm-3">Seat:</dt>
+                        <dd class="col-sm-9">@ticket.Seat</dd>
+
+                        <dt class="col-sm-3">Seat Class:</dt>
+                        <dd class="col-sm-9">@ticket.SeatStatus</dd>
+
+                        <dt class="col-sm-3">Status:</dt>
+                        <dd class="col-sm-9">@ticket.TicketStatus</dd>
+                    </dl>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+@* <h5>Tickets on this Reservation</h5>
+<table class="table table-primary">
+    <tr>
+        <th>Flight Number</th>
+        <th>User Name</th>
+        <th>First Name</th>
+        <th>Date</th>
+    </tr>
+    @foreach (Ticket tk in Model.Tickets)
+    {
+        <tr>
+            <td>@Html.DisplayFor(ModelItem => tk.Flight.FlightNumber)</td>
+            <td>@Html.DisplayFor(ModelItem => tk.TicketHolder.UserName)</td>
+            <td>@Html.DisplayFor(ModelItem => tk.TicketHolder.FirstName)</td>
+            <td>@Html.DisplayFor(ModelItem => tk.TicketDate)</td>
+        </tr>
+    }
+</table> *@
+<div>
+    <a asp-action="Index" class="btn btn-info">Back to List</a>
+    <a asp-action="Start" asp-controller="Tickets" asp-route-reservationID="@Model.ReservationID" asp-route-flightId="@Model.RequestedFlightNum" class="btn btn-warning">Add A Ticket</a>
+    <a asp-action="Index" asp-controller="Tickets" asp-route-reservationID="@Model.ReservationID" class="btn btn-danger">Edit Existing Tickets</a>
+    <form asp-action="TogglePaymentType" asp-controller="Reservation" method="post">
+        <input type="hidden" name="reservationId" value="@Model.ReservationID" />
+        <button type="submit" class="btn btn-primary">Switch Payment Type</button>
+    </form>
+
+</div>
+

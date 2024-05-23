@@ -1,0 +1,149 @@
+﻿@model Reservation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Reservation Details</h2>
+<h3>Are you sure you want to check out?</h3>
+<a asp-action="Confirm" asp-route-id="@Model.ReservationID" asp-route-ticketId="@ViewBag.TicketId" class="btn btn-primary">Checkout</a>
+<a asp-action="Details" asp-route-id="@Model.ReservationID" class="btn btn-primary">Cancel</a>
+
+<div class="card">
+    <div class="card-header">
+        Reservation Information
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Primary Reserver:</dt>
+            <dd class="col-sm-9">@Model.User.FirstName @Model.User.LastName</dd>
+
+            <dt class="col-sm-3">Reservation Number:</dt>
+            <dd class="col-sm-9">@Model.ReservationNumber</dd>
+
+            <dt class="col-sm-3">Price:</dt>
+            <dd class="col-sm-9">@Model.Total</dd>
+
+            <dt class="col-sm-3">Price:</dt>
+            <dd class="col-sm-9">@Model.PriceInMilesTotal</dd>
+
+            <dt class="col-sm-3">Payment Type:</dt>
+            <dd class="col-sm-9">@Model.PaymentType</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="card mt-4">
+    <div class="card-header">
+        Flight Details
+    </div>
+    <div class="card-body">
+        @foreach (var flight in Model.Tickets.Select(ticket => ticket.Flight).Distinct())
+        {
+            <dl class="row">
+                <dt class="col-sm-3">Flight Departure Time:</dt>
+                <dd class="col-sm-9">@flight.DepartureTime.ToString("yyyy-MM-dd HH:mm")</dd>
+
+                <dt class="col-sm-3">Departure City:</dt>
+                <dd class="col-sm-9">@flight.FlightPath.DepartureCity</dd>
+
+                <dt class="col-sm-3">Arrival City:</dt>
+                <dd class="col-sm-9">@flight.FlightPath.ArrivalCity</dd>
+            </dl>
+        }
+    </div>
+</div>
+
+<div class="card mt-4">
+    <div class="card-header">
+        Ticket Details
+    </div>
+    <div class="card-body">
+        @foreach (var ticket in Model.Tickets)
+        {
+            <div class="card mb-3">
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">Name:</dt>
+                        <dd class="col-sm-9">@ticket.TicketHolder.FirstName @ticket.TicketHolder.LastName</dd>
+
+                        <dt class="col-sm-3">Ticket ID:</dt>
+                        <dd class="col-sm-9">@ticket.TicketID</dd>
+
+                        <dt class="col-sm-3">Seat:</dt>
+                        <dd class="col-sm-9">@ticket.Seat</dd>
+
+                        <dt class="col-sm-3">Seat Class:</dt>
+                        <dd class="col-sm-9">@ticket.SeatStatus</dd>
+
+                        <dt class="col-sm-3">Status:</dt>
+                        <dd class="col-sm-9">@ticket.TicketStatus</dd>
+                    </dl>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<h5>Reservation Summary</h5>
+@if(ViewBag.BasePrice != 0)
+{
+    @ViewBag.ChangeSeatMessage
+    <table class="table table-sm table-bordered" style="width:30%">
+        <tr>
+            <th colspan="2" style="text-align:center">Reservation Summary</th>
+        </tr>
+        <tr>
+            <td>Base Price:</td>
+            <td>$@ViewBag.BasePrice </td>
+        </tr>
+        <tr>
+            <td>Upgrades:</td>
+            <td>$@ViewBag.Upgrades</td>
+        </tr>
+        <tr>
+            <td>Modification Fee:</td>
+            <td>$@ViewBag.ModificationFee</td>
+        </tr>
+        <tr>
+            <td>Discounts [Subtracted Amount]:</td>
+            <td>($@ViewBag.Discounts)</td>
+        </tr>
+        <tr>
+            <td>This Ticket Price:</td>
+            <td>$@((decimal)ViewBag.BasePrice + (decimal)ViewBag.Upgrades - (decimal)ViewBag.Discounts + (decimal)ViewBag.ModificationFee)</td>
+        </tr>
+    </table>
+}
+else
+{
+    <table class="table table-sm table-bordered" style="width:30%">
+        <tr>
+            <th colspan="2" style="text-align:center">Reservation Summary</th>
+        </tr>
+        <tr>
+            <td>Miles to be Spent:</td>
+            <td>@ViewBag.NumberOfMiles </td>
+        </tr>
+        @* <tr>
+            <td>Upgrades:</td>
+            <td>@ViewBag.Upgrades</td>
+        </tr>
+        <tr>
+            <td>Discounts [Subtracted Amount]:</td>
+            <td>(@ViewBag.Discounts)</td>
+        </tr>
+        <tr>
+            <td>This Ticket Price:</td>
+            <td>@((decimal)ViewBag.BasePrice + (decimal)ViewBag.Upgrades - (decimal)ViewBag.Discounts)</td>
+        </tr> *@
+    </table>
+}
+
+
+
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ReservationID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

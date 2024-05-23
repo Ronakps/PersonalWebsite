@@ -1,0 +1,167 @@
+@model Group5_LonghornAirlines_FinalProject.Models.Flight
+
+@{
+    ViewData["Title"] = "Flight Details";
+}
+
+<h1>Flight Details</h1>
+<hr />
+
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Flight Information</h4>
+        <dl class="row">
+            <dt class="col-sm-4">Flight Number:</dt>
+            <dd class="col-sm-8">@Model.FlightNumber</dd>
+
+            <dt class="col-sm-4">Departure Time:</dt>
+            <dd class="col-sm-8">@Model.DepartureTime.ToString("g")</dd>
+
+            <dt class="col-sm-4">Economy Price per Seat:</dt>
+            <dd class="col-sm-8">@Model.EconomyPrice.ToString("C")</dd>
+
+            <dt class="col-sm-4">Status:</dt>
+            <dd class="col-sm-8">@Model.status.ToString()</dd>
+
+            <dt class="col-sm-4">Days of Departure:</dt>
+            <dd class="col-sm-8">@Model.DepDays.ToString()</dd>
+        </dl>
+    </div>
+</div>
+
+@if (User.IsInRole("Manager"))
+{
+    <div class="mt-3">
+        <a asp-action="Edit" asp-route-id="@Model.FlightID" class="btn btn-primary">Edit Flight</a>
+    </div>
+}
+
+<div class="mt-3">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+<style>
+    .text-center {
+        text-align: center;
+    }
+
+    .seat-selection-form {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .seat-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .seat-table th, .seat-table td {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .seat-table th {
+            background-color: #f8f9fa;
+        }
+
+    .seat-cell {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .available {
+        color: green;
+    }
+
+    .special-available {
+        color: darkblue;
+    }
+
+    .taken {
+        color: red;
+    }
+</style>
+
+<table class="seat-table">
+    <thead>
+        <tr>
+            <th>Row</th>
+            <th colspan="2">Seats</th>
+            <th>Aisle</th>
+            <th colspan="2">Seats</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var rows = new[]
+            {
+                new { Row = 1, Seats = new[] { "A1", "", "", "", "B1" } },
+                new { Row = 2, Seats = new[] { "A2", "", "", "", "B2" } },
+                new { Row = 3, Seats = new[] { "A3", "B3", "", "C3", "D3" } },
+                new { Row = 4, Seats = new[] { "A4", "B4", "", "C4", "D4" } },
+                new { Row = 5, Seats = new[] { "A5", "B5", "", "C5", "D5" } }
+            };
+        }
+        @foreach (var row in rows)
+        {
+            <tr>
+                <td>@row.Row</td>
+                @foreach (var seat in row.Seats)
+                {
+                    var ticketWithSeat = Model.Tickets.FirstOrDefault(t => t.Seat.ToString() == seat && t.TicketStatus == TicketStatus.Active);
+                    var seatTaken = ticketWithSeat != null;
+                    var seatClass = (seat == "A1" || seat == "A2" || seat == "B1" || seat == "B2") ? "special-available" : "available";
+                    var cssClass = seatTaken ? "taken" : seatClass;
+
+                    <td class="seat-cell @cssClass">@seat</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<!-- Existing table structure above -->
+<!-- ... -->
+<!-- Add a legend below the table -->
+<div class="seat-legend">
+    <h5>Legend</h5>
+    <div class="legend-item">
+        <span class="legend-color-box" style="background-color: green;"></span> Economy Class
+    </div>
+    <div class="legend-item">
+        <span class="legend-color-box" style="background-color: darkblue;"></span> First Class
+    </div>
+    <div class="legend-item">
+        <span class="legend-color-box" style="background-color: red;"></span> Unavailable
+    </div>
+</div>
+
+<style>
+    /* Existing styles */
+    /* ... */
+
+    .seat-legend {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .legend-item {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 10px; /* Space out legend items */
+    }
+
+    .legend-color-box {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ddd; /* Match table cell border */
+        margin-right: 5px; /* Space between color box and text */
+    }
+</style>

@@ -1,0 +1,18 @@
+﻿@model List<Group5_LonghornAirlines_FinalProject.Models.AppUser>
+
+@{
+    ViewData["Title"] = "Proceed";
+}
+
+<h1>Proceed</h1>
+
+<p>Selected users:</p>
+
+<ul>
+    @foreach (var user in Model)
+    {
+        <li>@user.UserName (ID: @user.Id)</li>
+    }
+</ul>
+
+<!-- Additional content or actions based on the selected users -->
