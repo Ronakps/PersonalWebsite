@@ -70,7 +70,7 @@ nav-menu: true
             /*testing image width and heigh*/
 			width: 50px; /* 50% smaller */
             height: 50px;
-            max-width: auto;
+            max-width: aut;
         }
         .university h3 {
             text-align: center;
