@@ -7,7 +7,6 @@ nav-menu: true
 ---
 
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
