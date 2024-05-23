@@ -358,6 +358,10 @@ nav-menu: true
 	<h4>Spring 2024 (Janurary - April)</h4>
 	<p>In a highly competitive project, our team secured 3rd place out of 24 groups, consisting of about 96 students, by developing a comprehensive airline reservation system. Utilizing tools like Visual Studio, Lucidchart for business flow and ERD, and Microsoft Azure for database connections, we linked database querying using SQL. I led a team of four as the project manager in an agile format, organizing tasks through two stand-up meetings per sprint and conducting structured working sessions to achieve at least four coding tasks each. Our project included creating three Razor views for business logic, designing three business flow diagrams, and drafting UI images for the website's appearance. We compiled a product portfolio backlog and roadmap, conducted competitive analysis, and researched customer needs and the digital marketing landscape. We wrote 100 test cases for A/B testing, ensuring a robust iterative process. Our efforts culminated in a successful working website, presented to our professor for evaluation, which ultimately led to our top-tier placement. As a team, we managed the roles of Design, Engineering, and Research/Analytics, bringing the product from ideation to launch.</p>
 </div>
+<ul class="actions">
+	<li><a href="#" class="button special">Note1</a></li>
+	<li><a href="#" class="button">Note2</a></li>
+</ul>
 <div class="box">
 	<h3>McCombs Fall Case Competition: 9th place / 18 teams</h3>
 	<h4>Fall 2021 (September - October)</h4>
