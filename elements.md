@@ -114,15 +114,15 @@ nav-menu: true
             text-align: left;
             width: 100%;
         }
+        .university dt, .university dd {
+            display: inline-block;
+            vertical-align: top;
+        }
         .university dt {
             width: 150px;
             font-weight: bold;
         }
-        .university dd {
-            margin-left: 160px;
-        }
         .university .location {
-            display: inline-block;
             width: 150px;
         }
         .university .location + dd {
@@ -179,6 +179,7 @@ nav-menu: true
     </div>
 </body>
 </html>
+
 
 
 
