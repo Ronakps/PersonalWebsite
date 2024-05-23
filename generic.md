@@ -152,3 +152,16 @@ nav-menu: true
         </ul>
     </div>
 </div>
+
+<!----------------------------------------------My Activities---------------------------------------------------->
+<div class="row">
+	<div class="6u 12u$(small)">
+		<h4>Fun Facts</h4>
+		<ul class="alt">
+            <li>Ran a half marathon in 2 hours & 3 minutes</li>
+            <li>Read Outliers by Malcolm Gladwell 3 times</li>
+            <li>Watched Interstellar by Christopher Nolan 8 times</li>
+            <li>Watched all 12 movies directed by Christopher Nolan</li>
+		</ul>
+    </div>
+</div>
