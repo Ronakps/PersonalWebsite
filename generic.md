@@ -111,7 +111,7 @@ nav-menu: true
 <div class="row">
     <div class="6u 12u$(small)">
         <h3>Activities</h3>
-        <p>I love to explore different parts of life whenever I have free time. This includes...</p>
+        <p>I love exploring nature and life whenever I have free time including...</p>
         <ul>
             <li>Triathlons and marathons. I have run the Austin Half-Marathon in February 2024 and currently training for a half Iron-Man triathlon (70.3 miles).</li>
             <li>Traveling to new places around the world. I love to road trip and explore in the area that I am in. This includes participating in the culture, the nightlife, and trying out the food.</li>
