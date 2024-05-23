@@ -7,8 +7,8 @@ nav-menu: true
 ---
 
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
-<h3>Blockquote</h3>
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+<h3>My Travel Map</h3>
+<blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to</blockquote>
 
  <!DOCTYPE html>
     <html lang="en">
