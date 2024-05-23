@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: About Me
+description: My personal life
 image: assets/images/pic03.jpg
 nav-menu: true
 ---

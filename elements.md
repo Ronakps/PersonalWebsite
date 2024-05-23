@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Academics/Certifications
+description: Education, Coursework, Skills, Certifications
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
