@@ -332,9 +332,9 @@ nav-menu: true
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
-        <a href="#" class="button small special">Certification</a>
+        <a href="https://drive.google.com/file/d/1v3CmF7aiFocsksG1tWoz15GlEvN2oemU/view?usp=sharing" class="button small special">Certification</a>
         <!-- Use this button to press to access the notes -->
-        <a href="#" class="button small">Notes</a>
+        <a href="https://drive.google.com/file/d/1Zgk9TdlLO6FnMWvtUrh3HIb88hTWkQJq/view?usp=sharing" class="button small">Notes</a>
     </div>
 	<h2></h2>
 	<dt>The Non-Technical Skills of Effective Data Scientists</dt>
@@ -343,9 +343,9 @@ nav-menu: true
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
-        <a href="#" class="button small special">Certification</a>
+        <a href="https://drive.google.com/file/d/1CsIrBqidIuGJRuAmTg2wO448_AwUi53R/view?usp=sharing" class="button small special">Certification</a>
         <!-- Use this button to press to access the notes -->
-        <a href="#" class="button small">Notes</a>
+        <a href="https://drive.google.com/file/d/1AwBisAnmUws5ik0fz-DomnMSsQix17gy/view?usp=sharing" class="button small">Notes</a>
     </div>
 	<h2></h2>
 	<dt>Data-Driven Product Management</dt>
@@ -354,9 +354,9 @@ nav-menu: true
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
-        <a href="#" class="button small special">Certification</a>
+        <a href="https://drive.google.com/file/d/19dEuIgmNI_ZZVfrLB6Ls1kktmd0UzzRf/view?usp=sharing" class="button small special">Certification</a>
         <!-- Use this button to press to access the notes -->
-        <a href="#" class="button small">Notes</a>
+        <a href="https://drive.google.com/file/d/1QTT0mVz-WrBj_7e4aFmMSqhftiZMLUD4/view?usp=sharing" class="button small">Notes</a>
     </div>
 	<h2></h2>
 	<dt>Product Strategy Micro-Certification</dt>
@@ -365,9 +365,9 @@ nav-menu: true
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
-        <a href="#" class="button small special">Certification</a>
+        <a href="https://drive.google.com/file/d/1Vz6a1MPhieIsO5DR8ePPRjCP7qLm8tlt/view?usp=sharing" class="button small special">Certification</a>
         <!-- Use this button to press to access the notes -->
-        <a href="#" class="button small">Notes</a>
+        <a href="https://drive.google.com/file/d/1pn4eq1_1EQCVIfC7vXlDlHKMGBeFZg4j/view?usp=sharing" class="button small">Notes</a>
     </div>
 	<h2></h2>
 </dl>
