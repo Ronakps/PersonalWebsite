@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/Group5_LonghornAirlines_FinalProject.props" />
-</Project>
