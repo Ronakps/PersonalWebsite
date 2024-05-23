@@ -128,6 +128,30 @@ nav-menu: true
         .university .location + dd {
             margin-left: 10px;
         }
+        .university .fields,
+        .university .locations {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .university .fields dt,
+        .university .locations dt {
+            width: auto;
+            white-space: nowrap;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .university .fields dd,
+        .university .locations dd {
+            width: auto;
+            margin: 0;
+        }
+        .university .fields {
+            margin-bottom: 10px;
+        }
+        .university .locations {
+            margin-top: 10px;
+        }
         .university .img-container {
             display: flex;
             align-items: center;
@@ -157,28 +181,33 @@ nav-menu: true
                 <img src="assets/images/UTCampus.jpg" alt="The University of Texas at Austin">
             </div>
             <h3>The University of Texas at Austin</h3>
-            <dl>
+            <div class="fields">
                 <dt>Field of Study:</dt>
                 <dd>Management Information Systems & Finance</dd>
+            </div>
+            <div class="locations">
                 <dt class="location">Location:</dt>
                 <dd class="location">Austin, Texas</dd>
-            </dl>
+            </div>
         </div>
         <div class="university">
             <div class="img-container">
                 <img src="assets/images/UB.jpg" alt="Universitat de Barcelona">
             </div>
             <h3>Universitat de Barcelona</h3>
-            <dl>
+            <div class="fields">
                 <dt>Field of Study:</dt>
                 <dd>Business, Finance, & Liberal Arts</dd>
+            </div>
+            <div class="locations">
                 <dt class="location">Location:</dt>
                 <dd class="location">Barcelona, Spain</dd>
-            </dl>
+            </div>
         </div>
     </div>
 </body>
 </html>
+
 
 
 
