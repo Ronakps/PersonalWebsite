@@ -68,9 +68,9 @@ nav-menu: true
         }
         .university img {
             /*testing image width and heigh*/
-			width: 50px; /* 50% smaller */
-            height: 50px;
-            max-width: aut;
+			width: 50%; /* 50% smaller */
+            height: auto;
+            max-width: 100%;
         }
         .university h3 {
             text-align: center;
