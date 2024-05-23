@@ -123,11 +123,12 @@ nav-menu: true
     <div class="6u 12u$(small)">
         <h3>Fun Facts</h3>
         <p>Some interesting things about me...</p>
-		<ul class="alt">
+		<ul>
             <li>Ran a half marathon in 2 hours & 3 minutes (I love strava)</li>
             <li>Read Outliers by Malcolm Gladwell 3 times</li>
             <li>Watched Interstellar by Christopher Nolan 8 times</li>
-            <li>At one point, I ate chipotle everyday for 84 days straight(12 weeks)</li>
+            <li>Whitewater rafted & Kayaked 7 days straight in West Virginia</li>
+            <li>Ate chipotle everyday for 84 days straight(12 weeks)</li>
             <li>Watched all 12 movies directed by Christopher Nolan</li>
 		</ul>
     </div>
@@ -162,7 +163,7 @@ nav-menu: true
         <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" style="width: 200px; height: 200px;"/></span></div>
         <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" style="width: 200px; height: 200px;"/></span></div>
         <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" style="width: 200px; height: 200px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.jpeg" alt="" style="width: 200px; height: 200px;"/></span></div>
         <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujarat.png" alt="" style="width: 200px; height: 200px;" /></span></div>
         <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" style="width: 200px; height: 200px;"/></span></div>
     </div>
