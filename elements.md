@@ -68,9 +68,9 @@ nav-menu: true
         }
         .university img {
             /*testing image width and heigh*/
-			width: 25%; /* 50% smaller */
-            height: auto%;
-            max-width: 25%;
+			width: 50%; /* 50% smaller */
+            height: auto;
+            max-width: 100%;
         }
         .university h3 {
             text-align: center;
@@ -351,6 +351,17 @@ nav-menu: true
 	<dt>Data-Driven Product Management</dt>
 	<dd>
 		<p>In this course with product strategist Drew Falkman, learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations. Learning objectives: 1. Discover best practices for using metrics to drive key product decisions.2. Learn how to establish and maintain a data-driven product strategy.3. Recognize key product analytics to measure, and the insight they provide.4. Learn how to make data-driven business cases.5. Learn how to experiment with the data insights you're gathering to improve product/market fit and performance.6. Explore advanced analytics considerations for product managers and their organizations.</p>
+	</dd>
+	<div>
+        <!-- Use this button to press to access the photo of the certification -->
+        <a href="#" class="button small special">Certification</a>
+        <!-- Use this button to press to access the notes -->
+        <a href="#" class="button small">Notes</a>
+    </div>
+	<h2></h2>
+	<dt>Product Strategy Micro-Certification</dt>
+	<dd>
+		<p>A Product Strategy is a comprehensive plan that delineates a company's objectives and methods for attaining them through its product offerings, integrating the Product Vision and the Company Vision/Mission/Goals. It encompasses elements such as Product Vision, Insights, Challenges, Approaches, and Accountability, providing direction, aligning business strategy, meeting customer needs, differentiating from competitors, and optimizing resources. Crafting an effective Product Strategy involves six key steps: Market analysis, Customer analytics, Product vision and mission, Objectives and key results (OKRs), Product roadmap, and Prioritization, with an emphasis on incorporating long-term goals into daily operations, aligning resources, and outlining ownership. Effective communication of the Product Strategy to stakeholders is vital, necessitating clear messaging, tailored communication, and engagement through two-way communication and data utilization. Attributes of a successful Product Strategy include clarity in vision and mission, customer-centricity, market orientation, prioritized initiatives, measurable goals, data-driven decision-making, innovation, flexibility, resource alignment, and effective communication.</p>
 	</dd>
 	<div>
         <!-- Use this button to press to access the photo of the certification -->
