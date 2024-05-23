@@ -352,8 +352,9 @@ nav-menu: true
 
 <!-------------------------------------------Awards/ Comps -------------------------------------------------------------------->
 
-<h3>Box</h3>
+<h4>Awards</h4>
 <div class="box">
+	<h3>MIS 333K Web Application Development</h3>: <h2>3rd place / 26 teams (104 studnets)</h2>
 	<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
 </div>
 
