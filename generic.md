@@ -109,9 +109,9 @@ nav-menu: true
 
 <!----------------------------------------------My Activities / FUN FACTS ---------------------------------------------------->
 <div class="row">
-    <h3>Activities</h3>
-    <p>I love to explore different parts of life whenever I have free time. This includes...</p>
     <div class="6u 12u$(small)">
+        <h3>Activities</h3>
+        <p>I love to explore different parts of life whenever I have free time. This includes...</p>
         <ul>
             <li>Triathlons and marathons. I have run the Austin Half-Marathon in February 2024 and currently training for a half Iron-Man triathlon (70.3 miles).</li>
             <li>Traveling to new places around the world. I love to road trip and explore in the area that I am in. This includes participating in the culture, the nightlife, and trying out the food.</li>
@@ -120,8 +120,8 @@ nav-menu: true
             <li>Professional and Collegiate sports such as basketball, football, golf, soccer, pickleball, baseball.</li>
         </ul>
     </div>
-    <h3>Fun Facts</h3>
     <div class="6u 12u$(small)">
+        <h3>Fun Facts</h3>
 		<ul class="alt">
             <li>Ran a half marathon in 2 hours & 3 minutes</li>
             <li>Read Outliers by Malcolm Gladwell 3 times</li>
