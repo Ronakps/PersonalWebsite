@@ -302,7 +302,7 @@ nav-menu: true
 
 
 <!-------------------------------------------Certifications -------------------------------------------------------------------->
-<h4>Certifications</h4>
+<h2>Certifications</h2>
 <dl>
 	<dt>Introduction to Data Science</dt>
 	<dd>
@@ -352,9 +352,10 @@ nav-menu: true
 
 <!-------------------------------------------Awards/ Comps -------------------------------------------------------------------->
 
-<h4>Awards</h4>
+<h2>Awards</h2>
 <div class="box">
-	<h3>MIS 333K Web Application Development</h3>: <h2>3rd place / 26 teams (104 studnets)</h2>
+	<h3>MIS 333K Web Application Development: 3rd place / 26 teams (104 studnets)</h3>
+	<h4>Spring 2024 (Janurary - April)</h4>
 	<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
 </div>
 

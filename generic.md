@@ -106,10 +106,11 @@ nav-menu: true
 </body>
 </html>
 
-<!----------------------------------------------My Activities---------------------------------------------------->
-<h3>Activities</h3>
-<p>I love to explore different parts of life whenever I have free time. This includes...</p>
+
+<!----------------------------------------------My Activities / FUN FACTS ---------------------------------------------------->
 <div class="row">
+    <h3>Activities</h3>
+    <p>I love to explore different parts of life whenever I have free time. This includes...</p>
     <div class="6u 12u$(small)">
         <ul>
             <li>Triathlons and marathons. I have run the Austin Half-Marathon in February 2024 and currently training for a half Iron-Man triathlon (70.3 miles).</li>
@@ -118,6 +119,15 @@ nav-menu: true
             <li>Practicing yoga and meditation. I help my friends and family find inner peace during stressful times; for example during final exam season.</li>
             <li>Professional and Collegiate sports such as basketball, football, golf, soccer, pickleball, baseball.</li>
         </ul>
+    </div>
+    <h3>Fun Facts</h3>
+    <div class="6u 12u$(small)">
+		<ul class="alt">
+            <li>Ran a half marathon in 2 hours & 3 minutes</li>
+            <li>Read Outliers by Malcolm Gladwell 3 times</li>
+            <li>Watched Interstellar by Christopher Nolan 8 times</li>
+            <li>Watched all 12 movies directed by Christopher Nolan</li>
+		</ul>
     </div>
 </div>
 
@@ -139,20 +149,20 @@ nav-menu: true
 <div class="box alt">
     <div class="row 50% uniform">
         <!-- First Row -->
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/chelsea.jpeg" alt="" style="height: 100px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/cowboys.jpeg" alt="" style="height: 100px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/fcbarca.png" alt="" style="height: 100px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/longhorns.png" alt="" style="height: 100px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/mavs.png" alt="" style="height: 100px;"/></span></div>
-        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/pga.jpeg" alt="" style="height: 100px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/chelsea.jpeg" alt="" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/cowboys.jpeg" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/fcbarca.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/longhorns.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/mavs.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/pga.jpeg" alt="" style="width: 200px; height: 200px;"/></span></div>
         <!-- Break -->
         <!-- Second Row -->
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" style="height: 50px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" style="height: 50px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" style="height: 50px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.png" alt="" style="height: 50px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujarat.png" alt=""style="height: 50px;" /></span></div>
-        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" style="height: 50px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" style="width: 250px; height: 250px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" style="width: 250px; height: 250px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" style="width: 250px; height: 250px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.png" alt="" style="width: 250px; height: 250px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujarat.png" alt="" style="width: 250px; height: 250px;" /></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" style="width: 250px; height: 250px;"/></span></div>
     </div>
         <!-- Text block spanning the width of the photos -->
     <div class="row uniform">
