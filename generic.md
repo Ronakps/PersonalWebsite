@@ -108,6 +108,13 @@ nav-menu: true
             .openPopup();
         });
     </script>
+    <style>
+    #map {
+        height: 400px; /* Set the height of the map */
+        width: 100%; /* Set the width of the map */
+        margin-top: 20px;
+    }
+</style>
 </body>
 </html>
 
@@ -128,4 +135,20 @@ nav-menu: true
 		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
 		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
 	</div>
+</div>
+
+<!----------------------------------------------My Activities---------------------------------------------------->
+<h3>Activities</h3>
+<p>I love to explore different parts of life whenever I have free time. This includes...</p>
+<div class="row">
+    <div class="6u 12u$(small)">
+        <h4>Unordered</h4>
+        <ul>
+            <li>Triathlons and marathons. I have run the Austin Half-Marathon in February 2024 and currently training for a half Iron-Man triathlon (70.3 miles).</li>
+            <li>Traveling to new places around the world. I love to road trip and explore in the area that I am in. This includes participating in the culture, the nightlife, and trying out the food.</li>
+            <li>Any adrenaline activities. Whether finding new underground cliff diving spots in Austin or going skydiving in the rural areas of New Zealand.</li>
+            <li>Practicing yoga and meditation. I help my friends and family find inner peace during stressful times; for example during final exam season.</li>
+            <li>Professional and Collegiate sports such as basketball, football, golf, soccer, pickleball, baseball.</li>
+        </ul>
+    </div>
 </div>
