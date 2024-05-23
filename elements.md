@@ -68,8 +68,8 @@ nav-menu: true
         }
         .university img {
             /*testing image width and heigh*/
-			width: 400px; /* 50% smaller */
-            height: 400px;
+			width: 100px; /* 50% smaller */
+            height: 100px;
             max-width: 100%;
         }
         .university h3 {
