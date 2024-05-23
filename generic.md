@@ -157,12 +157,12 @@ nav-menu: true
         <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/pga.jpeg" alt="" style="width: 200px; height: 200px;"/></span></div>
         <!-- Break -->
         <!-- Second Row -->
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" style="width: 250px; height: 250px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" style="width: 250px; height: 250px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" style="width: 250px; height: 250px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.png" alt="" style="width: 250px; height: 250px;"/></span></div>
-        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujarat.png" alt="" style="width: 250px; height: 250px;" /></span></div>
-        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" style="width: 250px; height: 250px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/stars.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/wings.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/rangers.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/intermiami.png" alt="" style="width: 200px; height: 200px;"/></span></div>
+        <div class="2u"><span class="image fit"><img src="assets/images/SportTeam/gujarat.png" alt="" style="width: 200px; height: 200px;" /></span></div>
+        <div class="2u$"><span class="image fit"><img src="assets/images/SportTeam/tennis.png" alt="" style="width: 200px; height: 200px;"/></span></div>
     </div>
         <!-- Text block spanning the width of the photos -->
     <div class="row uniform">
