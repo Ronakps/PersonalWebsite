@@ -11,7 +11,7 @@ nav-menu: true
 <blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to</blockquote>
 <p>Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</p>
 
- <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -119,7 +119,7 @@ nav-menu: true
 </html>
 
 <!----------------------------------------------My sports teams---------------------------------------------------->
-<h4>Fit</h4>
+<h4>My Sports team</h4>
 <span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
 <div class="box alt">
 	<div class="row 50% uniform">
@@ -142,7 +142,6 @@ nav-menu: true
 <p>I love to explore different parts of life whenever I have free time. This includes...</p>
 <div class="row">
     <div class="6u 12u$(small)">
-        <h4>Unordered</h4>
         <ul>
             <li>Triathlons and marathons. I have run the Austin Half-Marathon in February 2024 and currently training for a half Iron-Man triathlon (70.3 miles).</li>
             <li>Traveling to new places around the world. I love to road trip and explore in the area that I am in. This includes participating in the culture, the nightlife, and trying out the food.</li>
