@@ -357,8 +357,8 @@ nav-menu: true
 	<h3>MIS 333K Web Application Development: 3rd place / 26 teams (104 studnets)</h3>
 	<h4>Spring 2024 (Janurary - April)</h4>
 	<p>In a highly competitive project, our team secured 3rd place out of 24 groups, consisting of about 96 students, by developing a comprehensive airline reservation system. Utilizing tools like Visual Studio, Lucidchart for business flow and ERD, and Microsoft Azure for database connections, we linked database querying using SQL. I led a team of four as the project manager in an agile format, organizing tasks through two stand-up meetings per sprint and conducting structured working sessions to achieve at least four coding tasks each. Our project included creating three Razor views for business logic, designing three business flow diagrams, and drafting UI images for the website's appearance. We compiled a product portfolio backlog and roadmap, conducted competitive analysis, and researched customer needs and the digital marketing landscape. We wrote 100 test cases for A/B testing, ensuring a robust iterative process. Our efforts culminated in a successful working website, presented to our professor for evaluation, which ultimately led to our top-tier placement. As a team, we managed the roles of Design, Engineering, and Research/Analytics, bringing the product from ideation to launch.</p>
-	<a href="assets/images/333KAward/FinalGroupProject.zip" class="button small" download>Project Code (VS)</a>
-	<a href="assets/images/333KAward/MIS 333K Final Project Process Flow - Page 1.pdf" class="button small" download>Process Flow Diagram</a>
+	<a href="assets/images/333KAward/FinalGroupProject.zip" class="button icon fa-download" download>Project Code (VS)</a>
+	<a href="assets/images/333KAward/MIS 333K Final Project Process Flow - Page 1.pdf" class="button icon fa-download" download>Process Flow Diagram</a>
 </div>
 <div class="box">
 	<h3>McCombs Fall Case Competition: 9th place / 18 teams</h3>
