@@ -364,7 +364,7 @@ nav-menu: true
 	<h3>McCombs Fall Case Competition: 9th place / 18 teams</h3>
 	<h4>Fall 2021 (September - October)</h4>
 	<p>In a case competition centered around the integration and creation of a mental health app, I led a team of four using an agile format, organizing tasks and stand-up meetings via a Kanban board on Atlassian. I conducted a comprehensive market analysis, including survey research and examining data from similar apps, to forecast potential future users. Our two-part solution was developed using Microsoft PowerPoint and Lucidchart, ensuring clear and professional presentations. I designed a template interface with Adobe and Canva to provide a visual representation of our app. Additionally, I created a competitive analysis chart and a financial model for the app's free, freemium, and fully paid versions using Excel. This model included evaluations of EBITDA, terminal growth rate, enterprise value, and revenue per user forecasts. Our thorough preparation culminated in a presentation to a panel of ten judges. Our strategic use of tools and data analysis highlighted the app's potential impact and market viability. The project not only showcased our technical and analytical skills but also demonstrated our ability to deliver a comprehensive business proposal in a competitive setting.</p>
-	<a href="https://drive.google.com/file/d/1i1SYadbeVscmB99l6h3p5GrFl8mTiPhs/view?usp=sharing" class="button fit">Slide Deck</a>
+	<a href="https://drive.google.com/file/d/1i1SYadbeVscmB99l6h3p5GrFl8mTiPhs/view?usp=sharing" class="button">Slide Deck</a>
 </div>
 
 <!-------------------------------------------END -------------------------------------------------------------------->
