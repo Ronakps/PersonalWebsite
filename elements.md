@@ -320,8 +320,8 @@ nav-menu: true
         <!-- Use this button to press to access the notes -->
         <a href="https://drive.google.com/file/d/1Zgk9TdlLO6FnMWvtUrh3HIb88hTWkQJq/view?usp=sharing" class="button small">Notes</a>
     </div>
-	<h2></h2>
-	<dt>The Non-Technical Skills of Effective Data Scientists</dt>
+	<h2></h2>	
+	<dt><h2>The Non-Technical Skills of Effective Data Scientists</h2></dt>
 	<dd>
 		<p>Most data science training focuses only on key technologies. But real-world data science jobs require more than just technical acumen. When new data scientists change their focus from the classroom to the boardroom, they must be able to empathize, persuade, and lead others if they want to successfully run projects that produce business transformation. This course was designed to help you learn these, and other, nontechnical skills that can help you convert your first data science job into a successful, lifelong career. There are predictable challenges to be overcome when predictive models introduce change in organizations. Throughout this course, instructor Keith McCormick goes over these challenges and shows how to overcome them. Discover how to confidently defend your turf at work, enhance your own natural curiosity, deepen your commitment to your craft, effectively translate the language of analytics to the language of business, practice diplomacy, and more.</p>
 	</dd>
@@ -332,7 +332,7 @@ nav-menu: true
         <a href="https://drive.google.com/file/d/1AwBisAnmUws5ik0fz-DomnMSsQix17gy/view?usp=sharing" class="button small">Notes</a>
     </div>
 	<h2></h2>
-	<dt>Data-Driven Product Management</dt>
+	<dt><h2>Data-Driven Product Management</h2></dt>
 	<dd>
 		<p>In this course with product strategist Drew Falkman, learn the difference between product and marketing analytics, and why product analytics and the insight they provide are critical to making important product decisions. Drew reviews popular product analytics software tools—including AI solutions—and introduces you to the main tools and processes product managers use to analyze product data. Learn how to maintain a data-driven strategy, recognize key product analytics to measure, how to make data-driven business cases, and explore some advanced analytics considerations for product managers and their organizations. Learning objectives: 1. Discover best practices for using metrics to drive key product decisions.2. Learn how to establish and maintain a data-driven product strategy.3. Recognize key product analytics to measure, and the insight they provide.4. Learn how to make data-driven business cases.5. Learn how to experiment with the data insights you're gathering to improve product/market fit and performance.6. Explore advanced analytics considerations for product managers and their organizations.</p>
 	</dd>
@@ -343,7 +343,7 @@ nav-menu: true
         <a href="https://drive.google.com/file/d/1QTT0mVz-WrBj_7e4aFmMSqhftiZMLUD4/view?usp=sharing" class="button small">Notes</a>
     </div>
 	<h2></h2>
-	<dt>Product Strategy Micro-Certification</dt>
+	<dt><h2>Product Strategy Micro-Certification</h2></dt>
 	<dd>
 		<p>A Product Strategy is a comprehensive plan that delineates a company's objectives and methods for attaining them through its product offerings, integrating the Product Vision and the Company Vision/Mission/Goals. It encompasses elements such as Product Vision, Insights, Challenges, Approaches, and Accountability, providing direction, aligning business strategy, meeting customer needs, differentiating from competitors, and optimizing resources. Crafting an effective Product Strategy involves six key steps: Market analysis, Customer analytics, Product vision and mission, Objectives and key results (OKRs), Product roadmap, and Prioritization, with an emphasis on incorporating long-term goals into daily operations, aligning resources, and outlining ownership. Effective communication of the Product Strategy to stakeholders is vital, necessitating clear messaging, tailored communication, and engagement through two-way communication and data utilization. Attributes of a successful Product Strategy include clarity in vision and mission, customer-centricity, market orientation, prioritized initiatives, measurable goals, data-driven decision-making, innovation, flexibility, resource alignment, and effective communication.</p>
 	</dd>
