@@ -37,7 +37,7 @@ nav-menu: true
 			</div>
 		</div>
 	</section> -->
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -50,11 +50,13 @@ nav-menu: true
         }
         .image {
             flex: 1;
+            padding: 10px; /* Adjust padding to zoom out the image */
         }
         .image img {
-            width: 100%;
-            height: 100%;
+            width: calc(100% - 20px); /* Adjust width according to padding */
+            height: calc(100% - 20px); /* Adjust height according to padding */
             object-fit: cover;
+            object-position: center;
         }
         .content {
             flex: 2;
