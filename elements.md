@@ -180,9 +180,11 @@ nav-menu: true
 
 <!-----------------------------------------------RELEVANT COURSEWORK ---------------------------------------------->
 <!-- Table -->
-<h3>Relevant Coursework</h3>
+<header class="major">
+	<h1>Relevant Coursework</h1>
+</header>
 
-<h4>UT Austin Courses</h4>
+<h2>UT Austin Courses</h2>
 <div class="table-wrapper">
 	<table>
 		<thead>
@@ -250,10 +252,12 @@ nav-menu: true
 
 <hr class="major" />
 <!-----------------------------------------------  SKILLS -------------------------------------------------------------------->
-<h2 id="content">Professional Skills</h2>
+		<header class="major">
+			<h1>Professional Skills</h1>
+		</header>
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h3>Computer Skills</h3>
+		<h2>Computer Skills</h2>
 		<div class="box alt">
 			<div class="row 50% uniform">
 				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Excel.jpeg" alt="" style="width: 100px; height: 100px;" /></span></div>
@@ -276,7 +280,7 @@ nav-menu: true
 		<p>My proficiency in various computer skills like MS Excel, PowerPoint, and Tableau allows me to effectively manipulate and analyze data, crucial for roles in data science and analysis. Additionally, expertise in tools like PowerBI and WEKA enhances my ability to derive insights from complex datasets, essential for data analysis roles. Moreover, familiarity with project management platforms like Jira and software development environments like Visual Studio makes me an asset in product management, where efficient project coordination is essential. Overall, my diverse computer skills make me a valuable employee in the tech industry, offering versatility and efficiency across product management, data science, and data analysis domains.</p>
 	</div>
 	<div class="6u 12u$(small)">
-		<h3>Coding Skills</h3>
+		<h2>Coding Skills</h2>
 		<div class="box alt">
 			<div class="row 50% uniform">
 				<div class="4u"><span class="image fit"><img src="assets/images/Skills/Coding/aspdotnet.png" alt="" style="width: 100px; height: 100px;" /></span></div>
@@ -302,7 +306,9 @@ nav-menu: true
 
 
 <!-------------------------------------------Certifications -------------------------------------------------------------------->
-<h2>Certifications</h2>
+<header class="major">
+			<h1>Certifications</h1>
+		</header>
 <dl>
 	<dt>Introduction to Data Science</dt>
 	<dd>
@@ -352,7 +358,9 @@ nav-menu: true
 
 <!-------------------------------------------Awards/ Comps -------------------------------------------------------------------->
 
-<h2>Awards</h2>
+<header class="major">
+			<h1>Awards</h1>
+		</header>
 <div class="box">
 	<h3>MIS 333K Web Application Development: 3rd place / 26 teams (104 studnets)</h3>
 	<h4>Spring 2024 (Janurary - April)</h4>
