@@ -37,7 +37,6 @@ nav-menu: true
 			</div>
 		</div>
 	</section> -->
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -151,7 +150,9 @@ nav-menu: true
 		</div>
 	</section>
 </section> -->
-<section id="one">
+</section>
+
+<section id="three">
 	<div class="inner">
         <header class="major">
             <h2>Massa libero</h2>
@@ -162,5 +163,4 @@ nav-menu: true
         </ul>
     </div>
 </section>
-</div>
 
