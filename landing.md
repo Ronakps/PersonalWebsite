@@ -21,7 +21,7 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<section>
+	<!-- <section>
 		<a href="generic.html" class="image">
 			<img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="center center" />
 		</a>
@@ -36,7 +36,57 @@ nav-menu: true
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Prediction</title>
+    <style>
+        .flex-container {
+            display: flex;
+            align-items: stretch;
+        }
+        .image {
+            flex: 1;
+        }
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1em;
+        }
+        .inner {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <section class="flex-container">
+        <a href="generic.html" class="image">
+            <img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="center center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Wine Quality Prediction</h3>
+                </header>
+                <p>This project focuses on developing a machine learning pipeline to predict the quality of red wine based on its chemical properties. By leveraging a dataset of red wine samples, the pipeline involves data loading, exploratory data analysis, feature engineering, model training, and evaluation. Key steps include visualizing relationships between wine quality and various chemical attributes, applying polynomial feature transformation to capture non-linear interactions, and using a Random Forest classifier optimized through grid search for hyperparameter tuning. The model's performance is evaluated on a test set, demonstrating its ability to accurately classify wine quality as good or bad. This project showcases an effective and systematic approach to predictive modeling, providing valuable insights and accurate predictions in the context of wine quality assessment.</p>
+                <ul class="actions">
+                    <li><a href="generic.html" class="button">Learn more</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
 	<section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
