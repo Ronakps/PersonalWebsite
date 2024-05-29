@@ -1,7 +1,7 @@
 ---
 title: Machine Learning Projects
 layout: landing
-description: 'Predictive Analytics and Programming'
+description: False
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -154,7 +154,7 @@ nav-menu: true
 
 <!-- Three -->
 <section id="three">
-	<div class="inner">
+	<div class="inner" style="margin-top: 20px;">
 		<header class="major">
 			<h2>Massa libero</h2>
 		</header>
