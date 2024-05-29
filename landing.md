@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="center center" />
+			<img src="CollabProjects/Images/RedWine.jpeg" height = auto alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
