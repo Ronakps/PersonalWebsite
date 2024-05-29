@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Machine Learning Projects
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Predictive Analytics and Programming'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Background on the projects</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>A look into all of the predictive ananlytic projects I have worked on through Google Collab. You have access to the code and a summary report. These projects are passion projects I had to help me not only reinforce my knowledge working with machine learning algorithms and artificial intelligence but also understand how these concepts can apply in real life and to my interests. I learned to code these projects through a plethora of hours in school, YouTube, certificates, and google searches.</p>
 	</div>
 </section>
 
@@ -23,14 +23,14 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Wine Quality Prediction</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>This project focuses on developing a machine learning pipeline to predict the quality of red wine based on its chemical properties. By leveraging a dataset of red wine samples, the pipeline involves data loading, exploratory data analysis, feature engineering, model training, and evaluation. Key steps include visualizing relationships between wine quality and various chemical attributes, applying polynomial feature transformation to capture non-linear interactions, and using a Random Forest classifier optimized through grid search for hyperparameter tuning. The model's performance is evaluated on a test set, demonstrating its ability to accurately classify wine quality as good or bad. This project showcases an effective and systematic approach to predictive modeling, providing valuable insights and accurate predictions in the context of wine quality assessment.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
