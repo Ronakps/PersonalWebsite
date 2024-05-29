@@ -155,6 +155,15 @@ nav-menu: true
 <!-- Three -->
 <section id="one">
 	<div class="inner">
+		<header class="major">
+			<h2>Background on the projects</h2>
+		</header>
+		<p>A look into all of the predictive ananlytic projects I have worked on through Google Collab. You have access to the code and a summary report. These projects are passion projects I had to help me not only reinforce my knowledge working with machine learning algorithms and artificial intelligence but also understand how these concepts can apply in real life and to my interests. I learned to code these projects through a plethora of hours in school, YouTube, certificates, and google searches.</p>
+	</div>
+</section>
+<!--Testing with the CSS-->
+<section id="one">
+	<div class="inner">
         <header class="major">
             <h2>Massa libero</h2>
         </header>
