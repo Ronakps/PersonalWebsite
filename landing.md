@@ -154,7 +154,7 @@ nav-menu: true
 
 <!-- Three -->
 <section id="three">
-    <div class="inner" style="margin-top: 20px; margin-left: 20px;">
+	<div class="inner">
         <header class="major">
             <h2>Massa libero</h2>
         </header>
