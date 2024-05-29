@@ -153,7 +153,7 @@ nav-menu: true
 </section> -->
 
 <!-- Three -->
-<section id="three">
+<section id="one">
 	<div class="inner">
         <header class="major">
             <h2>Massa libero</h2>
