@@ -310,7 +310,7 @@ nav-menu: true
 			<h1>Certifications</h1>
 		</header>
 <dl>
-	<dt>Introduction to Data Science</dt>
+	<dt><h2>Introduction to Data Science</h2></dt>
 	<dd>
 		<p>The world of data science is reshaping every business, regardless of industry, location, or role. And there’s never been a better time to get up to speed and learn the basics of this booming field. In this course, designed specifically for beginners, explore the world of data science, its opportunities and innovations, and the fundamental skills required for success. Join Python trainer and data science expert Lavanya Vijayan as she shares what data science is and how it differs from other common data-related careers. Discover some of the most important tools used in the trade to develop your understanding of data libraries and data manipulation. Along the way, get an introduction to exploratory data analysis, data cleaning, data visualization, sampling, testing, estimating, and more. By the end of this course, you’ll know how to use inference and statistical analysis to make more reliable predictions for your business.</p>
 	</dd>
