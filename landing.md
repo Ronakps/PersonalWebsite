@@ -151,8 +151,6 @@ nav-menu: true
 		</div>
 	</section>
 </section> -->
-
-<!--Testing with the CSS-->
 <section id="one">
 	<div class="inner">
         <header class="major">
@@ -164,6 +162,5 @@ nav-menu: true
         </ul>
     </div>
 </section>
-
 </div>
 
