@@ -33,9 +33,6 @@
                   <p>{{ post.content }}</p>
                 </div>
               {% endif %}
-              {% if forloop.index0 != 0 and forloop.index0 % 2 == 1 %}
-                <div class="clearfix"></div>
-              {% endif %}
             {% endfor %}
           </div>
         </div>
@@ -46,25 +43,23 @@
 
     <style>
       .posts-container {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px; /* Adjust the gap between items as needed */
       }
       .post-item {
-        flex: 1 1 calc(50% - 20px); /* Adjust the width to be half of the container, minus the gap */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         box-sizing: border-box;
       }
       .post-item img {
         width: 100%;
         height: auto;
       }
-      .clearfix {
-        flex-basis: 100%;
-        height: 0;
-      }
       @media (max-width: 768px) {
-        .post-item {
-          flex: 1 1 100%; /* Stack items on smaller screens */
+        .posts-container {
+          grid-template-columns: 1fr; /* Stack items on smaller screens */
         }
       }
     </style>
