@@ -83,9 +83,10 @@
           const photoElement = document.createElement('div');
           photoElement.className = 'photo';
           photoElement.innerHTML = `
-            <img src="${photo.src}" alt="${photo.alt}" />
-            <div class="caption">${photo.description}</div>
-          `;
+              <img src="${photo.src}" alt="${photo.alt}" />
+              <div class="caption">${photo.description}</div>
+              <div class="label">Photo</div>`;
+
           row.appendChild(photoElement);
           photoCount++;
 
