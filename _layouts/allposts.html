@@ -41,13 +41,13 @@
         .row {
             display: flex;
             gap: 20px; /* Adjust gap between photos in a row */
+            margin-bottom: 40px; /* Add space between rows */
         }
 
         .photo {
             text-align: center;
             height: 300px;
             width: calc(33.33% - 20px); /* Adjust width for three photos per row */
-            margin-bottom: 20px; /* Add space between rows */
             position: relative; /* Positioning for caption */
         }
 
@@ -59,13 +59,14 @@
 
         .caption {
             position: absolute;
-            bottom: 0;
+            bottom: -40px; /* Adjust the position to place text below each photo */
             left: 0;
             width: 100%;
             color: white; /* Set text color to white */
             padding: 10px;
             box-sizing: border-box;
             margin: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
             text-align: center; /* Center align the text */
         }
 
