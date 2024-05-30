@@ -27,7 +27,9 @@
             </div>
         </div>
         {% endif %}
-        {{ content }}
+        <div class="content-with-spacing">
+            {{ content }}
+        </div>
     </div>
 </section>
 
@@ -43,7 +45,7 @@
     position: relative;
     text-align: center;
     color: white;
-    height: 600px; /* Set height to 6.25% of original to shorten by another 75% */
+    height: 6.25%; /* Set height to 6.25% of original to shorten by another 75% */
     overflow: hidden;
 }
 
@@ -62,6 +64,10 @@
     font-size: 2em;
     font-weight: bold;
     color: white; /* You can adjust the text color as needed */
+}
+
+.content-with-spacing {
+    margin-top: 20px; /* Adjust this value to set the desired space between the image and the content */
 }
 </style>
 
