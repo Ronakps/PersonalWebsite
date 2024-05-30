@@ -4,9 +4,69 @@ title: All posts
 landing-title: 'All posts'
 nav-menu: true
 description: null
-image: null
+image: true
 author: null
 show_tile: false
 ---
 
 <h1>All posts</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .photo {
+      width: 25%;
+      margin: 10px;
+      position: relative;
+    }
+    .photo img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="gallery">
+  <div class="photo">
+    <img src="assets/images/pic01.jpg" alt="Photo 1">
+    <div class="caption">Description for Photo 1</div>
+  </div>
+  <div class="photo">
+    <img src="assets/images/pic02.jpg" alt="Photo 2">
+    <div class="caption">Description for Photo 2</div>
+  </div>
+  <div class="photo">
+    <img src="assets/images/pic03.jpg" alt="Photo 3">
+    <div class="caption">Description for Photo 3</div>
+  </div>
+  <div class="photo">
+    <img src="assets/images/pic04.jpg" alt="Photo 4">
+    <div class="caption">Description for Photo 4</div>
+  </div>
+  <!-- Add more photos and captions as needed -->
+</div>
+
+</body>
+</html>
+
