@@ -56,6 +56,7 @@
       .caption {
         margin-top: 10px;
         font-size: 16px;
+        text-align: center; /* Center the description */
       }
     </style>
 
@@ -83,9 +84,11 @@
           const photoElement = document.createElement('div');
           photoElement.className = 'photo';
           photoElement.innerHTML = `
-              <img src="${photo.src}" alt="${photo.alt}" />
-              <div class="caption">${photo.description}</div>
-              <div class="label">Photo</div>`;
+            <img src="${photo.src}" alt="${photo.alt}" />
+            <div class="caption">${photo.description}</div>
+            <div class="label">${photo.description}</div>
+        `;
+
 
           row.appendChild(photoElement);
           photoCount++;
