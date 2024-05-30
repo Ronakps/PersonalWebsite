@@ -3,97 +3,102 @@
     Forty by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+  -->
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
 
-  {% include header.html %} 
-  
-  
-  <!-- Main -->
-  <div id="main" class="alt">
+    {% include header.html %} 
+    
+    
+    <!-- Main -->
+    <div id="main" class="alt">
 
-    <!-- One -->
-    <section id="one">
-      <div class="inner">
-        <div class="gallery">
-          <!-- Row 1 -->
-          <div class="row">
-            <div class="photo">
-              <img src="assets/images/pic01.jpg" alt="Image 1" />
-              <div class="caption">Description for Image 1</div>
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+          <div class="gallery">
+            <!-- Manually input the images and descriptions -->
+            <div class="row">
+              <div class="photo">
+                <img src="assets/images/pic01.jpg" alt="Image 1" />
+                <div class="caption">Description for Image 1</div>
+              </div>
+              <div class="photo">
+                <img src="assets/images/pic02.jpg" alt="Image 2" />
+                <div class="caption">Description for Image 2</div>
+              </div>
+              <div class="photo">
+                <img src="assets/images/pic03.jpg" alt="Image 3" />
+                <div class="caption">Description for Image 3</div>
+              </div>
             </div>
-            <div class="photo">
-              <img src="assets/images/pic02.jpg" alt="Image 2" />
-              <div class="caption">Description for Image 2</div>
+            <div class="row">
+              <div class="photo">
+                <img src="assets/images/pic01.jpg" alt="Image 1" />
+                <div class="caption">Description for Image 1</div>
+              </div>
+              <div class="photo">
+                <img src="assets/images/pic02.jpg" alt="Image 2" />
+                <div class="caption">Description for Image 2</div>
+              </div>
+              <div class="photo">
+                <img src="assets/images/pic03.jpg" alt="Image 3" />
+                <div class="caption">Description for Image 3</div>
+              </div>
             </div>
-            <div class="photo">
-              <img src="assets/images/pic03.jpg" alt="Image 3" />
-              <div class="caption">Description for Image 3</div>
-            </div>
-            <div class="photo">
-              <img src="assets/images/pic04.jpg" alt="Image 4" />
-              <div class="caption">Description for Image 4</div>
-            </div>
-          </div>
-          <!-- Row 2 -->
-          <div class="row">
-            <div class="photo">
-              <img src="assets/images/pic01.jpg" alt="Image 5" />
-              <div class="caption">Description for Image 5</div>
-            </div>
-            <div class="photo">
-              <img src="assets/images/pic02.jpg" alt="Image 6" />
-              <div class="caption">Description for Image 6</div>
-            </div>
-            <div class="photo">
-              <img src="assets/images/pic03.jpg" alt="Image 7" />
-              <div class="caption">Description for Image 7</div>
-            </div>
-            <div class="photo">
-              <img src="assets/images/pic04.jpg" alt="Image 8" />
-              <div class="caption">Description for Image 8</div>
+            <div class="row">
+              <div class="photo">
+                <img src="assets/images/pic01.jpg" alt="Image 1" />
+                <div class="caption">Description for Image 1</div>
+              </div>
+              <div class="photo">
+                <img src="assets/images/pic02.jpg" alt="Image 2" />
+                <div class="caption">Description for Image 2</div>
+              </div>
+              <div class="photo">
+                <img src="assets/images/pic03.jpg" alt="Image 3" />
+                <div class="caption">Description for Image 3</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  </div>
+    </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
 
-  <style>
-    .gallery {
-      display: flex;
-      flex-direction: column; /* Arrange rows vertically */
-      gap: 20px; /* Adjust gap between rows */
-      opacity: 0.75; /* Make the background 25% more translucent */
-    }
-    .row {
-      display: flex;
-      justify-content: space-between; /* Evenly space out photos */
-    }
-    .photo {
-      flex: 1;
-      text-align: center;
-      height: 300px; /* Set a fixed height for each photo */
-      width: 10%; /* Make each image 10% larger */
-    }
-    .photo img {
-      width: 100%;
-      height: 100%; /* Ensure the image fills the container */
-      object-fit: cover; /* Maintain aspect ratio */
-    }
-    .caption {
-      margin-top: 10px;
-      font-size: 16px;
-    }
-  </style>
+    <style>
+      .gallery {
+        display: flex;
+        justify-content: center; /* Center the row */
+        gap: 20px; /* Adjust gap between photos */
+      }
+      .row {
+        display: flex;
+        justify-content: space-between; /* Evenly space out photos */
+        max-width: 1200px; /* Limit the maximum width of the row */
+      }
+      .photo {
+        flex: 1;
+        text-align: center;
+        height: 300px; /* Set a fixed height for each photo */
+        width: 30%; /* Make each photo occupy 30% of the row */
+      }
+      .photo img {
+        width: 100%;
+        height: 100%; /* Ensure the image fills the container */
+        object-fit: cover; /* Maintain aspect ratio */
+      }
+      .caption {
+        margin-top: 10px;
+        font-size: 16px;
+      }
+    </style>
 
-</body>
+  </body>
 
 </html>
