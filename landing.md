@@ -21,22 +21,6 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<!-- <section>
-		<a href="generic.html" class="image">
-			<img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Wine Quality Prediction</h3>
-				</header>
-				<p>This project focuses on developing a machine learning pipeline to predict the quality of red wine based on its chemical properties. By leveraging a dataset of red wine samples, the pipeline involves data loading, exploratory data analysis, feature engineering, model training, and evaluation. Key steps include visualizing relationships between wine quality and various chemical attributes, applying polynomial feature transformation to capture non-linear interactions, and using a Random Forest classifier optimized through grid search for hyperparameter tuning. The model's performance is evaluated on a test set, demonstrating its ability to accurately classify wine quality as good or bad. This project showcases an effective and systematic approach to predictive modeling, providing valuable insights and accurate predictions in the context of wine quality assessment.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section> -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,8 +63,8 @@ nav-menu: true
                 <p>This project focuses on developing a machine learning pipeline to predict the quality of red wine based on its chemical properties. By leveraging a dataset of red wine samples, the pipeline involves data loading, exploratory data analysis, feature engineering, model training, and evaluation. Key steps include visualizing relationships between wine quality and various chemical attributes, applying polynomial feature transformation to capture non-linear interactions, and using a Random Forest classifier optimized through grid search for hyperparameter tuning. The model's performance is evaluated on a test set, demonstrating its ability to accurately classify wine quality as good or bad. This project showcases an effective and systematic approach to predictive modeling, providing valuable insights and accurate predictions in the context of wine quality assessment.</p>
                 <ul class="actions">
                     <li><a href="https://colab.research.google.com/drive/1kY6DOLWbQChiAdP0T6fbGshxV4j_OAlu?usp=sharing" class="button">Python Code (Google Collab)</a></li>
-					<a href="https://drive.google.com/file/d/1qo4NzSePGE8Uda5ia-uWtoYJRNhiGgvF/view?usp=sharing" class="button">Summary Report</a>
-					<a href="CollabProjects/Projects/Wine Prediction/winequality-red.csv" class="button icon fa-download" download>Wine csv file</a>
+					<li><a href="https://drive.google.com/file/d/1qo4NzSePGE8Uda5ia-uWtoYJRNhiGgvF/view?usp=sharing" class="button">Summary Report</a></li>
+					<li><a href="CollabProjects/Projects/Wine Prediction/winequality-red.csv" class="button icon fa-download" download>Wine csv file</a></li>
                 </ul>
             </div>
         </div>
@@ -118,40 +102,6 @@ nav-menu: true
 		</div>
 	</section>
 </body>
-<!-- </html>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section> -->
 </section>
 
 <section id="three">
