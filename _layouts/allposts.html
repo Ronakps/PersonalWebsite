@@ -64,49 +64,54 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-    const photos = [
-        { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
-        { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
-        { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-        { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
-        { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
-        { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-        { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
-        { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
-        { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-        { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
-        { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
-        { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-    ];
+        const photos = [
+            { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+            { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+            { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
+            { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+            { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+            { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
+            { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+            { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+            { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
+            { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+            { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+            { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
+        ];
 
-    const photoContainer = document.getElementById('photo-container');
-    let photoCount = 0;
-    let row = document.createElement('div');
-    row.className = 'row';
+        const photoContainer = document.getElementById('photo-container');
+        let photoCount = 0;
+        let row = document.createElement('div');
+        row.className = 'row';
 
-    photos.forEach(photo => {
-        const photoElement = document.createElement('div');
-        photoElement.className = 'photo';
-        photoElement.innerHTML = `
-            <img src="${photo.src}" alt="${photo.alt}" />
-            <div class="caption">${photo.description}</div>
-            <div class="label">${photo.description}</div>
-        `;
+        photos.forEach(photo => {
+            const photoElement = document.createElement('div');
+            photoElement.className = 'photo';
+            photoElement.innerHTML = `
+                <img src="${photo.src}" alt="${photo.alt}" />
+                <div class="caption">${photo.description}</div>
+                <div class="label">${photo.description}</div>
+            `;
 
-        row.appendChild(photoElement);
-        photoCount++;
+            row.appendChild(photoElement);
+            photoCount++;
 
-        // Add the row to the container and reset row if photoCount reaches 3
-        if (photoCount === 3) {
+            // Add the row to the container and reset row if photoCount reaches 3
+            if (photoCount === 3) {
+                photoContainer.appendChild(row);
+                row = document.createElement('div');
+                row.className = 'row';
+                photoCount = 0;
+            }
+        });
+
+        // If there are remaining photos, add them to the container
+        if (photoCount > 0) {
             photoContainer.appendChild(row);
-            row = document.createElement('div');
-            row.className = 'row';
-            photoCount = 0;
         }
     });
+    </script>
 
-    // If there are remaining photos, add them to the container
-    if (photoCount > 0) {
-        photoContainer.appendChild(row);
-    }
-});
+  </body>
+
+</html>
