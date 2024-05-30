@@ -64,7 +64,7 @@ nav-menu: true
                 <ul class="actions">
                     <li><a href="https://colab.research.google.com/drive/1kY6DOLWbQChiAdP0T6fbGshxV4j_OAlu?usp=sharing" class="button">Python Code (Google Collab)</a></li>
 					<li><a href="https://drive.google.com/file/d/1qo4NzSePGE8Uda5ia-uWtoYJRNhiGgvF/view?usp=sharing" class="button">Summary Report</a></li>
-					<li><a href="CollabProjects/Projects/Wine Prediction/winequality-red.csv" class="button icon fa-download" download>Wine csv file</a></li>
+					<li><a href="CollabProjects/Projects/Wine Prediction/winequality-red.csv" class="button special icon fa-download" download>Wine csv file</a></li>
                 </ul>
             </div>
         </div>
