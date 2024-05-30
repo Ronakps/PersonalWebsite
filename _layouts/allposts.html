@@ -56,7 +56,6 @@
       .caption {
         margin-top: 10px;
         font-size: 16px;
-        text-align: center; /* Center the description */
       }
     </style>
 
@@ -72,7 +71,9 @@
           { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
           { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
           { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-          // Add more photos as needed
+          { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+          { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+          { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
         ];
 
         const photoContainer = document.getElementById('photo-container');
@@ -84,11 +85,10 @@
           const photoElement = document.createElement('div');
           photoElement.className = 'photo';
           photoElement.innerHTML = `
-            <img src="${photo.src}" alt="${photo.alt}" />
-            <div class="caption">${photo.description}</div>
-            <div class="label">${photo.description}</div>
-        `;
-
+              <img src="${photo.src}" alt="${photo.alt}" />
+              <div class="caption">${photo.description}</div>
+              <div class="label">${photo.description}</div>
+          `;
 
           row.appendChild(photoElement);
           photoCount++;
