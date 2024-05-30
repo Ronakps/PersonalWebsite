@@ -78,7 +78,7 @@ nav-menu: true
                 </header>
                 <p>This project focuses on developing a machine learning pipeline to predict the quality of red wine based on its chemical properties. By leveraging a dataset of red wine samples, the pipeline involves data loading, exploratory data analysis, feature engineering, model training, and evaluation. Key steps include visualizing relationships between wine quality and various chemical attributes, applying polynomial feature transformation to capture non-linear interactions, and using a Random Forest classifier optimized through grid search for hyperparameter tuning. The model's performance is evaluated on a test set, demonstrating its ability to accurately classify wine quality as good or bad. This project showcases an effective and systematic approach to predictive modeling, providing valuable insights and accurate predictions in the context of wine quality assessment.</p>
                 <ul class="actions">
-                    <li><a href="CollabProjects/Projects/Wine_Quality_Prediction.ipynb" class="button">Learn more</a></li>
+                    <li><a href="https://colab.research.google.com/CollabProjects/Projects/Wine_Quality_Prediction.ipynb" class="button">Learn more</a></li>
                 </ul>
             </div>
         </div>
