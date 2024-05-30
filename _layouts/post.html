@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
     Forty by HTML5 UP
@@ -9,9 +10,10 @@
 {% include head.html %}
 
 <body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
 
-    {% include header.html %} 
-    
+    {% include header.html %}
+
     <div class="container"> <!-- Adding a container for page content -->
         <section id="banner" class="style2">
             <div class="inner">
@@ -24,9 +26,13 @@
             </div>
         </section>
     </div> <!-- End of container -->
-	<div class="content">
-		{{ content }}
-	</div>
+
+    <div class="container"> <!-- Adding another container for the main content -->
+        <div class="content">
+            {{ content }}
+        </div>
+    </div> <!-- End of content container -->
+
     {% include footer.html %}
 
 </body>
