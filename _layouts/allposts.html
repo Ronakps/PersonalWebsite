@@ -44,7 +44,7 @@
     <style>
       .posts-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px; /* Adjust the gap between items as needed */
       }
       .post-item {
@@ -63,6 +63,25 @@
         }
       }
     </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        function matchHeights() {
+          var rows = document.querySelectorAll('.posts-container > .post-item');
+          for (var i = 0; i < rows.length; i += 2) {
+            var img1 = rows[i].querySelector('img');
+            var img2 = rows[i + 1] ? rows[i + 1].querySelector('img') : null;
+            if (img1 && img2) {
+              var maxHeight = Math.max(img1.clientHeight, img2.clientHeight);
+              img1.style.height = img2.style.height = maxHeight + 'px';
+            }
+          }
+        }
+
+        window.addEventListener('resize', matchHeights);
+        matchHeights();
+      });
+    </script>
 
   </body>
 
