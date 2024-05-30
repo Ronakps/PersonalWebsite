@@ -2,7 +2,7 @@
 layout: post
 title: About Me
 description: My personal life
-image: false
+image: true
 nav-menu: true
 ---
 
