@@ -34,14 +34,14 @@
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            gap: 40px; /* Double the size of the gap between rows */
+            gap: 80px; /* Double the size of the gap between rows again */
             justify-content: center;
         }
 
         .row {
             display: flex;
             gap: 20px; /* Adjust gap between photos in a row */
-            margin-bottom: 40px; /* Add space between rows */
+            margin-bottom: 80px; /* Double the space between rows */
         }
 
         .photo {
@@ -59,14 +59,13 @@
 
         .caption {
             position: absolute;
-            bottom: -30px; /* Adjust the position to place text below each photo */
-            left: 0;
-            width: 100%;
+            bottom: -50px; /* Adjust the position to place text below each photo */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Move text horizontally to center */
             color: white; /* Set text color to white */
             padding: 10px;
             box-sizing: border-box;
             margin: 0;
-            text-align: center; /* Center align the text */
         }
 
         .label {
@@ -78,13 +77,13 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const photos = [
-                { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: ' Image 1' },
-                { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'De2' },
+                { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+                { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
                 { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
                 { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
                 { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
                 { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-                { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'D 1' },
+                { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
                 { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
                 { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
                 { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
