@@ -1,7 +1,7 @@
 ---
 title: Machine Learning Projects
 layout: landing
-description: 
+description: Predictive Analytics
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
