@@ -71,6 +71,7 @@
       display: flex;
       flex-direction: column; /* Arrange rows vertically */
       gap: 20px; /* Adjust gap between rows */
+      opacity: 0.75; /* Make the background 25% more translucent */
     }
     .row {
       display: flex;
@@ -79,10 +80,13 @@
     .photo {
       flex: 1;
       text-align: center;
+      height: 300px; /* Set a fixed height for each photo */
+      width: 10%; /* Make each image 10% larger */
     }
     .photo img {
       width: 100%;
-      height: auto;
+      height: 100%; /* Ensure the image fills the container */
+      object-fit: cover; /* Maintain aspect ratio */
     }
     .caption {
       margin-top: 10px;
