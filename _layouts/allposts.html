@@ -44,7 +44,7 @@
       .photo {
         text-align: center;
         height: 300px;
-        width: calc(33.33% - 20px); /* Adjust width for three photos per row */
+        width: calc(50% - 20px); /* Adjust width for two photos per row */
         margin-bottom: 20px; /* Add space between rows */
         position: relative; /* Positioning for caption */
       }
@@ -107,8 +107,8 @@
             row.appendChild(photoElement);
             photoCount++;
 
-            // Add the row to the container and reset row if photoCount reaches 3
-            if (photoCount === 3) {
+            // Add the row to the container and reset row if photoCount reaches 2
+            if (photoCount === 2) {
                 photoContainer.appendChild(row);
                 row = document.createElement('div');
                 row.className = 'row';
