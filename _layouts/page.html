@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
@@ -11,8 +11,55 @@
 <body>
     <script type="text/javascript">document.body.classList.add("is-loading");</script>
 
-    {% include header.html %} {{ content }} {% include footer.html %}
+    {% include header.html %}
+
+    <!-- Banner Section -->
+    <div class="image-container">
+        <img src="{{ site.baseurl }}/{{ page.image }}" alt="" class="transparent-image" />
+        <div class="title-overlay">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+
+    <!-- Content Section with Spacing -->
+    <div class="content-with-spacing">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
 
 </body>
+
+<style>
+/* CSS to make the image more transparent, position the title, and adjust the height */
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 6.25%; /* Set height to 6.25% of original to shorten by another 75% */
+    overflow: hidden;
+}
+
+.transparent-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    opacity: 0.5; /* Adjust the opacity for transparency */
+}
+
+.title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    color: white; /* You can adjust the text color as needed */
+}
+
+.content-with-spacing {
+    margin-top: 20px; /* Adjust this value to set the desired space between the image and the content */
+}
+</style>
 
 </html>
