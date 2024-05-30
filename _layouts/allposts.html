@@ -25,7 +25,7 @@
                     <h1>{{ post.title }}</h1>
                   </header>
                   {% if post.image %}
-                    <span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
+                    <span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}" /></span>
                   {% endif %}
                   {% if post.date %}
                     <p>{{ post.date }}</p>
@@ -55,7 +55,8 @@
       }
       .post-item img {
         width: 100%;
-        height: auto;
+        max-height: 200px; /* Adjust the max-height to make the images smaller */
+        object-fit: cover; /* Maintain aspect ratio while cropping if necessary */
       }
       @media (max-width: 768px) {
         .posts-container {
