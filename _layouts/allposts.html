@@ -37,11 +37,16 @@
         gap: 20px; /* Adjust gap between rows */
         justify-content: center;
       }
+      .row {
+        display: flex;
+        gap: 20px; /* Adjust gap between photos in a row */
+      }
       .photo {
         flex: 1;
         text-align: center;
         height: 300px;
         width: calc(33.33% - 20px); /* Adjust width for three photos per row */
+        margin-bottom: 20px; /* Add space between rows */
       }
       .photo img {
         width: 100%;
@@ -60,9 +65,12 @@
           { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
           { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
           { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
-          { src: 'assets/images/pic04.jpg', alt: 'Image 1', description: 'Description for Image 1' },
-          { src: 'assets/images/pic05.jpg', alt: 'Image 2', description: 'Description for Image 2' },
-          { src: 'assets/images/pic06.jpg', alt: 'Image 3', description: 'Description for Image 3' }
+          { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+          { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+          { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
+          { src: 'assets/images/pic01.jpg', alt: 'Image 1', description: 'Description for Image 1' },
+          { src: 'assets/images/pic02.jpg', alt: 'Image 2', description: 'Description for Image 2' },
+          { src: 'assets/images/pic03.jpg', alt: 'Image 3', description: 'Description for Image 3' },
           // Add more photos as needed
         ];
 
