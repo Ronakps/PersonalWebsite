@@ -71,17 +71,19 @@ nav-menu: true
     </section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="top center" />
+			<img src="CollabProjects/Images/lambo.jpeg" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Car Price Prediction</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>This project focuses on developing a sophisticated car price prediction model using machine learning techniques. By analyzing historical car sales data, the model predicts the selling prices of cars based on various features such as fuel type, seller type, and transmission. Advanced methods like polynomial feature generation, hyperparameter tuning, and cross-validation are employed to enhance the model's accuracy and robustness. The project aims to empower buyers and sellers in the automotive market with data-driven insights for making informed pricing decisions. Overall, it provides a valuable tool for setting competitive prices and understanding the factors influencing car prices.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+                    <li><a href="https://colab.research.google.com/drive/1Nijk_3-qGu660-n0p86vIf-BNGG1e1UN?usp=sharing" class="button">Python Code (Google Collab)</a></li>
+					<li><a href="https://drive.google.com/file/d/19iw73eMmS1OBY2cUNLxd2feBxyd8T6UF/view?usp=sharing" class="button">Summary Report</a></li>
+					<li><a href="CollabProjects/Projects/Car Price Prediction/car data.csv" class="button special icon fa-download" download>Car csv file</a></li>
+                </ul>
 			</div>
 		</div>
 	</section>
