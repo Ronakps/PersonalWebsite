@@ -10,11 +10,11 @@ nav-menu: true
 <div id="main" class="alt">
 
 <!-- One -->
-<section id="one">
+<!-- <section id="one">
 	<div class="inner">
 		<header class="major">
-		</header>
-        
+		</header> -->
+
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
 <html lang="en">
 <head>
