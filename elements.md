@@ -2,12 +2,19 @@
 layout: page
 title: Academics/Certifications
 description: Education, Coursework, Skills, Certifications, Awards
-image: assets/images/pic09.jpg
+image: assets/images/pic.jpg
 nav-menu: true
 ---
 
 <!-- Main -->
 <div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Academics</h1>
+		</header>
 
 <!-- Content -->
 <h2 id="content">Template</h2>
