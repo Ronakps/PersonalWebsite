@@ -13,7 +13,6 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Academics</h1>
 		</header>
 
 <!-- Content -->
