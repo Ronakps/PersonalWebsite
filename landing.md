@@ -96,7 +96,7 @@ nav-menu: true
 				<header class="major">
 					<h3>NBA Salary Predictor</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>The objective of this project is to build and evaluate machine learning models for predicting NBA player salaries based on their performance metrics. By utilizing various regression models such as Random Forest, Support Vector Regression, Ridge Regression, and Gradient Boosting, and combining them through model stacking, the code aims to identify the most accurate model for salary prediction. Additionally, the project analyzes the feature importance for each model and identifies the most overpaid and underpaid players by comparing predicted salaries to actual salaries. Visualizations are provided to compare model performances and highlight discrepancies in player valuations. This approach aids in understanding salary determinants and optimizing salary allocations in the NBA.</p>
 				<ul class="actions">
                     <li><a href="https://colab.research.google.com/drive/1Nijk_3-qGu660-n0p86vIf-BNGG1e1UN?usp=sharing" class="button">Python Code (Google Collab)</a></li>
 					<li><a href="https://drive.google.com/file/d/1SKbRthkUK6QK_Qt5or9qmHzjpJRW2Akm/view?usp=sharing" class="button">Summary Report</a></li>
