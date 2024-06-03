@@ -17,7 +17,7 @@ nav-menu: true
 
 
 <ul class="actions">
-    <li><a href="https://ronakps.github.io/PersonalWebsite/all_posts.html" class="button special fit"> Click here for my photo galler!</a></li>
+    <li><a href="https://ronakps.github.io/PersonalWebsite/all_posts.html" class="button special big"> Click here for my photo gallery!</a></li>
 </ul>
 
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
