@@ -89,31 +89,21 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="CollabProjects/Images/RedWine.jpeg" alt="" data-position="25% 25%" />
+			<img src="CollabProjects/Images/mavs.webp" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>NBA Salary Predictor</h3>
 				</header>
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+                    <li><a href="https://colab.research.google.com/drive/1Nijk_3-qGu660-n0p86vIf-BNGG1e1UN?usp=sharing" class="button">Python Code (Google Collab)</a></li>
+					<li><a href="https://drive.google.com/file/d/1SKbRthkUK6QK_Qt5or9qmHzjpJRW2Akm/view?usp=sharing" class="button">Summary Report</a></li>
+					<li><a href="CollabProjects/Projects/NBA Salaries/nba_2022-23_all_stats_with_salary.csv" class="button special icon fa-download" download>Car csv file</a></li>
+                </ul>
 			</div>
 		</div>
 	</section>
 </body>
-</section>
-
-<section id="three">
-	<div class="inner">
-        <header class="major">
-            <h2>Massa libero</h2>
-        </header>
-        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-        <ul class="actions">
-            <li><a href="generic.html" class="button next">Get Started</a></li>
-        </ul>
-    </div>
 </section>
