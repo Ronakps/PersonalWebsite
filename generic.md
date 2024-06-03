@@ -15,6 +15,12 @@ nav-menu: true
 		<header class="major">
 		</header>
 
+<div>
+    <ul class="actions">
+    <li><a href="https://ronakps.github.io/PersonalWebsite/all_posts.html" class="button special fit"> Click here for my photo galler!</a></li>
+    </ul>
+</div>
+
 <!----------------------------------------------MAP OF TRAVELED COUNTRIES---------------------------------------------------->
 <html lang="en">
 <head>
