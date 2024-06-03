@@ -100,7 +100,7 @@ nav-menu: true
 				<ul class="actions">
                     <li><a href="https://colab.research.google.com/drive/1Nijk_3-qGu660-n0p86vIf-BNGG1e1UN?usp=sharing" class="button">Python Code (Google Collab)</a></li>
 					<li><a href="https://drive.google.com/file/d/1SKbRthkUK6QK_Qt5or9qmHzjpJRW2Akm/view?usp=sharing" class="button">Summary Report</a></li>
-					<li><a href="CollabProjects/Projects/NBA Salaries/nba_2022-23_all_stats_with_salary.csv" class="button special icon fa-download" download>Car csv file</a></li>
+					<li><a href="CollabProjects/Projects/NBA Salaries/nba_2022-23_all_stats_with_salary.csv" class="button special icon fa-download" download>NBA Salary & Stats csv file</a></li>
                 </ul>
 			</div>
 		</div>
