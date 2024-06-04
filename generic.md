@@ -36,7 +36,7 @@ nav-menu: true
 </head>
 <body>
     <h3>My Travel Map</h3>
-    <blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to. Traveled to 31 countries and 4 continents (North America, Europe, Asia, Africa)</blockquote>
+    <blockquote>Below is a visualization I coded using HTML about all the cities I have traveled to. Traveled to 31 countries and 6 continents (North America, South America, Europe, Asia, Africa, Australia)</blockquote>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
@@ -109,7 +109,9 @@ nav-menu: true
             {lat: 34.0522, lon: -118.2437, name: "Los Angeles, California"},
             {lat: 32.7157, lon: -117.1611, name: "San Diego, California"},
             {lat: 25.7617, lon: -80.1918, name: "Miami, Florida"},
-            {lat: 35.7884, lon: -83.5319, name: "Dollywood, Tennessee"}
+            {lat: 35.7884, lon: -83.5319, name: "Dollywood, Tennessee"},
+            {lat: -22.9068, lon: -43.1729, name: "Rio de Janeiro, Brazil"}
+
         ];
         countries.forEach(function(country) {
             var marker = L.marker([country.lat, country.lon]).addTo(map);
