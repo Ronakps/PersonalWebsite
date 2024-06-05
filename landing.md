@@ -16,6 +16,7 @@ nav-menu: true
 			<h2>Background on the projects</h2>
 		</header>
 		<p>A look into all of the predictive ananlytic projects I have worked on through Google Collab. You have access to the code and a summary report. These projects are passion projects I had to help me not only reinforce my knowledge working with machine learning algorithms and artificial intelligence but also understand how these concepts can apply in real life and to my interests. I learned to code these projects through a plethora of hours in school, YouTube, certificates, and google searches.</p>
+        <p>To correctly run the projects, remember to first download the csv file and upload it into the Colab project on the side menu drop down. Then, click run all!</p>
 	</div>
 </section>
 
@@ -98,7 +99,7 @@ nav-menu: true
 				</header>
 				<p>The objective of this project is to build and evaluate machine learning models for predicting NBA player salaries based on their performance metrics. By utilizing various regression models such as Random Forest, Support Vector Regression, Ridge Regression, and Gradient Boosting, and combining them through model stacking, the code aims to identify the most accurate model for salary prediction. Additionally, the project analyzes the feature importance for each model and identifies the most overpaid and underpaid players by comparing predicted salaries to actual salaries. Visualizations are provided to compare model performances and highlight discrepancies in player valuations. This approach aids in understanding salary determinants and optimizing salary allocations in the NBA.</p>
 				<ul class="actions">
-                    <li><a href="https://colab.research.google.com/drive/1Nijk_3-qGu660-n0p86vIf-BNGG1e1UN?usp=sharing" class="button">Python Code (Google Collab)</a></li>
+                    <li><a href="https://colab.research.google.com/drive/1fPUqedxtRZqOEKJQW-1r2lzIf2JG6AuK?usp=sharing" class="button">Python Code (Google Collab)</a></li>
 					<li><a href="https://drive.google.com/file/d/1SKbRthkUK6QK_Qt5or9qmHzjpJRW2Akm/view?usp=sharing" class="button">Summary Report</a></li>
 					<li><a href="CollabProjects/Projects/NBA Salaries/nba_2022-23_all_stats_with_salary.csv" class="button special icon fa-download" download>NBA Salary & Stats csv file</a></li>
                 </ul>
